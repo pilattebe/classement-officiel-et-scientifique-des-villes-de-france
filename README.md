@@ -1,34 +1,7 @@
-## Usage
+## Carte du Classement Officiel et Scientifique des Villes de France
 
-Those templates dependencies are maintained via [pnpm](https://pnpm.io) via `pnpm up -Lri`.
+Antoine Daniel est un streamer et lors de certains streams, il invite des viewers à parler de leur ville. Sur base des témoignages, il donne un score pour la qualité de vie, le contexte historique et culturel, et bien entendu, comme tout bon classement scientifique, un score sur la vibe.
 
-This is the reason you see a `pnpm-lock.yaml`. That being said, any package manager will work. This file can be safely be removed once you clone a template.
+Je n'ai aucun lien avec Antoine Daniel. Ce projet est l'affichage des résultats sur une carte interractive.
 
-```bash
-$ npm install # or pnpm install or yarn install
-```
-
-### Learn more on the [Solid Website](https://solidjs.com) and come chat with us on our [Discord](https://discord.com/invite/solidjs)
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm dev` or `npm start`
-
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br>
-
-### `npm run build`
-
-Builds the app for production to the `dist` folder.<br>
-It correctly bundles Solid in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
-
-## Deployment
-
-You can deploy the `dist` folder to any static host provider (netlify, surge, now, etc.)
+Ce projet m'a demandé beaucoup de temps et d'énergie, j'accepte volontier des sponsors pour m'aider à me lancer dans les projets open-source.
