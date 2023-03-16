@@ -1,0 +1,1652 @@
+[
+    {
+        "geo_point_2d": [
+            42.27022036503366,
+            9.083128208149544
+        ],
+        "dep_name": "Haute-Corse",
+        "dep_code": "2B",
+        "reg_name": "Corse",
+        "com_code": "2B096",
+        "com_name": "Corte"
+    },
+    {
+        "geo_point_2d": [
+            44.72243503022044,
+            4.594125204574196
+        ],
+        "dep_name": "Ardèche",
+        "dep_code": "07",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "07186",
+        "com_name": "Privas"
+    },
+    {
+        "geo_point_2d": [
+            42.96532834382819,
+            1.6102420971009468
+        ],
+        "dep_name": "Ariège",
+        "dep_code": "09",
+        "reg_name": "Occitanie",
+        "com_code": "09122",
+        "com_name": "Foix"
+    },
+    {
+        "geo_point_2d": [
+            44.89951730329378,
+            6.649259304788028
+        ],
+        "dep_name": "Hautes-Alpes",
+        "dep_code": "05",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "05023",
+        "com_name": "Briançon"
+    },
+    {
+        "geo_point_2d": [
+            44.653411175276304,
+            -1.174978872396481
+        ],
+        "dep_name": "Gironde",
+        "dep_code": "33",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "33009",
+        "com_name": "Arcachon"
+    },
+    {
+        "geo_point_2d": [
+            44.52924152386393,
+            3.4812201760183137
+        ],
+        "dep_name": "Lozère",
+        "dep_code": "48",
+        "reg_name": "Occitanie",
+        "com_code": "48095",
+        "com_name": "Mende"
+    },
+    {
+        "geo_point_2d": [
+            46.162717579369065,
+            1.8709028204064653
+        ],
+        "dep_name": "Creuse",
+        "dep_code": "23",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "23096",
+        "com_name": "Guéret"
+    },
+    {
+        "geo_point_2d": [
+            48.764282171566435,
+            5.163287542066178
+        ],
+        "dep_name": "Meuse",
+        "dep_code": "55",
+        "reg_name": "Grand Est",
+        "com_code": "55029",
+        "com_name": "Bar-le-Duc"
+    },
+    {
+        "geo_point_2d": [
+            45.273087310233606,
+            1.7631164379430768
+        ],
+        "dep_name": "Corrèze",
+        "dep_code": "19",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "19272",
+        "com_name": "Tulle"
+    },
+    {
+        "geo_point_2d": [
+            48.60017291093884,
+            -3.8202295476912256
+        ],
+        "dep_name": "Finistère",
+        "dep_code": "29",
+        "reg_name": "Bretagne",
+        "com_code": "29151",
+        "com_name": "Morlaix"
+    },
+    {
+        "geo_point_2d": [
+            47.63180704427754,
+            6.1549869211320924
+        ],
+        "dep_name": "Haute-Saône",
+        "dep_code": "70",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "70550",
+        "com_name": "Vesoul"
+    },
+    {
+        "geo_point_2d": [
+            44.022262914123786,
+            1.364080853738961
+        ],
+        "dep_name": "Tarn-et-Garonne",
+        "dep_code": "82",
+        "reg_name": "Occitanie",
+        "com_code": "82121",
+        "com_name": "Montauban"
+    },
+    {
+        "geo_point_2d": [
+            48.40651540094804,
+            2.6809239511236007
+        ],
+        "dep_name": "Seine-et-Marne",
+        "dep_code": "77",
+        "reg_name": "Île-de-France",
+        "com_code": "77186",
+        "com_name": "Fontainebleau"
+    },
+    {
+        "geo_point_2d": [
+            49.69681784396659,
+            4.92962186643158
+        ],
+        "dep_name": "Ardennes",
+        "dep_code": "08",
+        "reg_name": "Grand Est",
+        "com_code": "08409",
+        "com_name": "Sedan"
+    },
+    {
+        "geo_point_2d": [
+            49.14564847314108,
+            5.362853451056428
+        ],
+        "dep_name": "Meuse",
+        "dep_code": "55",
+        "reg_name": "Grand Est",
+        "com_code": "55545",
+        "com_name": "Verdun"
+    },
+    {
+        "geo_point_2d": [
+            43.36450202148194,
+            -1.7664378799918665
+        ],
+        "dep_name": "Pyrénées-Atlantiques",
+        "dep_code": "64",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "64260",
+        "com_name": "Hendaye"
+    },
+    {
+        "geo_point_2d": [
+            45.634372160929225,
+            -1.0176190335270505
+        ],
+        "dep_name": "Charente-Maritime",
+        "dep_code": "17",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "17306",
+        "com_name": "Royan"
+    },
+    {
+        "geo_point_2d": [
+            45.69636031992009,
+            -0.33527850484880795
+        ],
+        "dep_name": "Charente",
+        "dep_code": "16",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "16102",
+        "com_name": "Cognac"
+    },
+    {
+        "geo_point_2d": [
+            50.43764592807909,
+            2.821237099369744
+        ],
+        "dep_name": "Pas-de-Calais",
+        "dep_code": "62",
+        "reg_name": "Hauts-de-France",
+        "com_code": "62498",
+        "com_name": "Lens"
+    },
+    {
+        "geo_point_2d": [
+            44.45082085168298,
+            1.4405397230679855
+        ],
+        "dep_name": "Lot",
+        "dep_code": "46",
+        "reg_name": "Occitanie",
+        "com_code": "46042",
+        "com_name": "Cahors"
+    },
+    {
+        "geo_point_2d": [
+            47.02557711061058,
+            4.837331205466779
+        ],
+        "dep_name": "Côte-d'Or",
+        "dep_code": "21",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "21054",
+        "com_name": "Beaune"
+    },
+    {
+        "geo_point_2d": [
+            46.806687712342956,
+            4.426770272549263
+        ],
+        "dep_name": "Saône-et-Loire",
+        "dep_code": "71",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "71153",
+        "com_name": "Le Creusot"
+    },
+    {
+        "geo_point_2d": [
+            44.09735503448828,
+            3.117377802001736
+        ],
+        "dep_name": "Aveyron",
+        "dep_code": "12",
+        "reg_name": "Occitanie",
+        "com_code": "12145",
+        "com_name": "Millau"
+    },
+    {
+        "geo_point_2d": [
+            43.65326279728219,
+            0.5748516762161059
+        ],
+        "dep_name": "Gers",
+        "dep_code": "32",
+        "reg_name": "Occitanie",
+        "com_code": "32013",
+        "com_name": "Auch"
+    },
+    {
+        "geo_point_2d": [
+            45.94288496370149,
+            -0.9721993203521648
+        ],
+        "dep_name": "Charente-Maritime",
+        "dep_code": "17",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "17299",
+        "com_name": "Rochefort"
+    },
+    {
+        "geo_point_2d": [
+            47.07550330572093,
+            5.500897021771212
+        ],
+        "dep_name": "Jura",
+        "dep_code": "39",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "39198",
+        "com_name": "Dole"
+    },
+    {
+        "geo_point_2d": [
+            46.66766608176732,
+            -1.4078954663770877
+        ],
+        "dep_name": "Vendée",
+        "dep_code": "85",
+        "reg_name": "Pays de la Loire",
+        "com_code": "85191",
+        "com_name": "La Roche-sur-Yon"
+    },
+    {
+        "geo_point_2d": [
+            44.35869134667515,
+            2.5668685911649747
+        ],
+        "dep_name": "Aveyron",
+        "dep_code": "12",
+        "reg_name": "Occitanie",
+        "com_code": "12202",
+        "com_name": "Rodez"
+    },
+    {
+        "geo_point_2d": [
+            46.12994396431319,
+            3.4244213684115787
+        ],
+        "dep_name": "Allier",
+        "dep_code": "03",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "03310",
+        "com_name": "Vichy"
+    },
+    {
+        "geo_point_2d": [
+            44.92446190603833,
+            2.441563289504545
+        ],
+        "dep_name": "Cantal",
+        "dep_code": "15",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "15014",
+        "com_name": "Aurillac"
+    },
+    {
+        "geo_point_2d": [
+            43.89952665700122,
+            -0.4904803297774725
+        ],
+        "dep_name": "Landes",
+        "dep_code": "40",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "40192",
+        "com_name": "Mont-de-Marsan"
+    },
+    {
+        "geo_point_2d": [
+            48.43151740626984,
+            0.09161642231690059
+        ],
+        "dep_name": "Orne",
+        "dep_code": "61",
+        "reg_name": "Normandie",
+        "com_code": "61001",
+        "com_name": "Alençon"
+    },
+    {
+        "geo_point_2d": [
+            47.2674902158854,
+            -0.08298703921448468
+        ],
+        "dep_name": "Maine-et-Loire",
+        "dep_code": "49",
+        "reg_name": "Pays de la Loire",
+        "com_code": "49328",
+        "com_name": "Saumur"
+    },
+    {
+        "geo_point_2d": [
+            48.19573192306362,
+            3.2976860722807273
+        ],
+        "dep_name": "Yonne",
+        "dep_code": "89",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "89387",
+        "com_name": "Sens"
+    },
+    {
+        "geo_point_2d": [
+            44.854305076366145,
+            0.48649979272431304
+        ],
+        "dep_name": "Dordogne",
+        "dep_code": "24",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "24037",
+        "com_name": "Bergerac"
+    },
+    {
+        "geo_point_2d": [
+            -17.5325,
+            -149.5677
+        ],
+        "dep_name": "Polynésie française",
+        "dep_code": "PF",
+        "reg_name": "Polynésie française",
+        "com_code": "98735",
+        "com_name": "Papeete"
+    },
+    {
+        "geo_point_2d": [
+            49.921836094741735,
+            1.087172348745672
+        ],
+        "dep_name": "Seine-Maritime",
+        "dep_code": "76",
+        "reg_name": "Normandie",
+        "com_code": "76217",
+        "com_name": "Dieppe"
+    },
+    {
+        "geo_point_2d": [
+            44.1289886740937,
+            4.810276564396695
+        ],
+        "dep_name": "Vaucluse",
+        "dep_code": "84",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "84087",
+        "com_name": "Orange"
+    },
+    {
+        "geo_point_2d": [
+            47.99910353875774,
+            2.737270744808652
+        ],
+        "dep_name": "Loiret",
+        "dep_code": "45",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "45208",
+        "com_name": "Montargis"
+    },
+    {
+        "geo_point_2d": [
+            45.19187130598887,
+            0.7119281399203417
+        ],
+        "dep_name": "Dordogne",
+        "dep_code": "24",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "24322",
+        "com_name": "Périgueux"
+    },
+    {
+        "geo_point_2d": [
+            45.520831833682195,
+            4.8808661414247725
+        ],
+        "dep_name": "Isère",
+        "dep_code": "38",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "38544",
+        "com_name": "Vienne"
+    },
+    {
+        "geo_point_2d": [
+            48.74867317844443,
+            1.3594370501959299
+        ],
+        "dep_name": "Eure-et-Loir",
+        "dep_code": "28",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "28134",
+        "com_name": "Dreux"
+    },
+    {
+        "geo_point_2d": [
+            45.02779039007494,
+            3.8956045811719786
+        ],
+        "dep_name": "Haute-Loire",
+        "dep_code": "43",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "43157",
+        "com_name": "Le Puy-en-Velay"
+    },
+    {
+        "geo_point_2d": [
+            48.163230251586384,
+            6.4798395921770195
+        ],
+        "dep_name": "Vosges",
+        "dep_code": "88",
+        "reg_name": "Grand Est",
+        "com_code": "88160",
+        "com_name": "Épinal"
+    },
+    {
+        "geo_point_2d": [
+            44.202825816414816,
+            0.6257315029382324
+        ],
+        "dep_name": "Lot-et-Garonne",
+        "dep_code": "47",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "47001",
+        "com_name": "Agen"
+    },
+    {
+        "geo_point_2d": [
+            46.98810733809251,
+            3.1570989676357484
+        ],
+        "dep_name": "Nièvre",
+        "dep_code": "58",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "58194",
+        "com_name": "Nevers"
+    },
+    {
+        "geo_point_2d": [
+            46.04517473338694,
+            4.079981052233545
+        ],
+        "dep_name": "Loire",
+        "dep_code": "42",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "42187",
+        "com_name": "Roanne"
+    },
+    {
+        "geo_point_2d": [
+            46.3211808131417,
+            4.818630769171849
+        ],
+        "dep_name": "Saône-et-Loire",
+        "dep_code": "71",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "71270",
+        "com_name": "Mâcon"
+    },
+    {
+        "geo_point_2d": [
+            47.79380735271251,
+            3.5816777201060215
+        ],
+        "dep_name": "Yonne",
+        "dep_code": "89",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "89024",
+        "com_name": "Auxerre"
+    },
+    {
+        "geo_point_2d": [
+            48.84199071978804,
+            7.830456439280177
+        ],
+        "dep_name": "Bas-Rhin",
+        "dep_code": "67",
+        "reg_name": "Grand Est",
+        "com_code": "67180",
+        "com_name": "Haguenau"
+    },
+    {
+        "geo_point_2d": [
+            48.44709168558274,
+            1.5056626927536674
+        ],
+        "dep_name": "Eure-et-Loir",
+        "dep_code": "28",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "28085",
+        "com_name": "Chartres"
+    },
+    {
+        "geo_point_2d": [
+            43.5359447283349,
+            6.454518598941229
+        ],
+        "dep_name": "Var",
+        "dep_code": "83",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "83050",
+        "com_name": "Draguignan"
+    },
+    {
+        "geo_point_2d": [
+            50.3817696130963,
+            3.0908497222040565
+        ],
+        "dep_name": "Nord",
+        "dep_code": "59",
+        "reg_name": "Hauts-de-France",
+        "com_code": "59178",
+        "com_name": "Douai"
+    },
+    {
+        "geo_point_2d": [
+            44.55379172682403,
+            4.748426518301761
+        ],
+        "dep_name": "Drôme",
+        "dep_code": "26",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "26198",
+        "com_name": "Montélimar"
+    },
+    {
+        "geo_point_2d": [
+            44.580237057907624,
+            6.0648455258211245
+        ],
+        "dep_name": "Hautes-Alpes",
+        "dep_code": "05",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "05061",
+        "com_name": "Gap"
+    },
+    {
+        "geo_point_2d": [
+            49.375919756871035,
+            6.128980123788904
+        ],
+        "dep_name": "Moselle",
+        "dep_code": "57",
+        "reg_name": "Grand Est",
+        "com_code": "57672",
+        "com_name": "Thionville"
+    },
+    {
+        "geo_point_2d": [
+            46.20501428706983,
+            5.245592502332278
+        ],
+        "dep_name": "Ain",
+        "dep_code": "01",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "01053",
+        "com_name": "Bourg-en-Bresse"
+    },
+    {
+        "geo_point_2d": [
+            45.647370784434045,
+            0.14514271158763448
+        ],
+        "dep_name": "Charente",
+        "dep_code": "16",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "16015",
+        "com_name": "Angoulême"
+    },
+    {
+        "geo_point_2d": [
+            50.290018240697805,
+            2.7660497934560873
+        ],
+        "dep_name": "Pas-de-Calais",
+        "dep_code": "62",
+        "reg_name": "Hauts-de-France",
+        "com_code": "62041",
+        "com_name": "Arras"
+    },
+    {
+        "geo_point_2d": [
+            44.12512931141922,
+            4.088567426319881
+        ],
+        "dep_name": "Gard",
+        "dep_code": "30",
+        "reg_name": "Occitanie",
+        "com_code": "30007",
+        "com_name": "Alès"
+    },
+    {
+        "geo_point_2d": [
+            43.23466017940348,
+            0.06615139825056372
+        ],
+        "dep_name": "Hautes-Pyrénées",
+        "dep_code": "65",
+        "reg_name": "Occitanie",
+        "com_code": "65440",
+        "com_name": "Tarbes"
+    },
+    {
+        "geo_point_2d": [
+            43.6062,
+            2.2413
+        ],
+        "dep_name": "Tarn",
+        "dep_code": "81",
+        "reg_name": "Occitanie",
+        "com_code": "81065",
+        "com_name": "Castres"
+    },
+    {
+        "geo_point_2d": [
+            46.803185865607695,
+            1.6936674474647666
+        ],
+        "dep_name": "Indre",
+        "dep_code": "36",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "36044",
+        "com_name": "Châteauroux"
+    },
+    {
+        "geo_point_2d": [
+            50.35910588097402,
+            3.516178074747983
+        ],
+        "dep_name": "Nord",
+        "dep_code": "59",
+        "reg_name": "Hauts-de-France",
+        "com_code": "59606",
+        "com_name": "Valenciennes"
+    },
+    {
+        "geo_point_2d": [
+            43.39175328292666,
+            3.6452873625910827
+        ],
+        "dep_name": "Hérault",
+        "dep_code": "34",
+        "reg_name": "Occitanie",
+        "com_code": "34301",
+        "com_name": "Sète"
+    },
+    {
+        "geo_point_2d": [
+            48.5148509620867,
+            -2.763310094285147
+        ],
+        "dep_name": "Côtes-d'Armor",
+        "dep_code": "22",
+        "reg_name": "Bretagne",
+        "com_code": "22278",
+        "com_name": "Saint-Brieuc"
+    },
+    {
+        "geo_point_2d": [
+            46.51980820990802,
+            -1.7639292082585754
+        ],
+        "dep_name": "Vendée",
+        "dep_code": "85",
+        "reg_name": "Pays de la Loire",
+        "com_code": "85194",
+        "com_name": "Les Sables-d'Olonne"
+    },
+    {
+        "geo_point_2d": [
+            46.789894782145915,
+            4.852450269692636
+        ],
+        "dep_name": "Saône-et-Loire",
+        "dep_code": "71",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "71076",
+        "com_name": "Chalon-sur-Saône"
+    },
+    {
+        "geo_point_2d": [
+            47.58153543244224,
+            1.3060888226822622
+        ],
+        "dep_name": "Loir-et-Cher",
+        "dep_code": "41",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "41018",
+        "com_name": "Blois"
+    },
+    {
+        "geo_point_2d": [
+            45.14345525775405,
+            1.519118827224847
+        ],
+        "dep_name": "Corrèze",
+        "dep_code": "19",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "19031",
+        "com_name": "Brive-la-Gaillarde"
+    },
+    {
+        "geo_point_2d": [
+            49.01978416397097,
+            1.1415243780941806
+        ],
+        "dep_name": "Eure",
+        "dep_code": "27",
+        "reg_name": "Normandie",
+        "com_code": "27229",
+        "com_name": "Évreux"
+    },
+    {
+        "geo_point_2d": [
+            49.77501903176537,
+            4.717044683058646
+        ],
+        "dep_name": "Ardennes",
+        "dep_code": "08",
+        "reg_name": "Grand Est",
+        "com_code": "08105",
+        "com_name": "Charleville-Mézières"
+    },
+    {
+        "geo_point_2d": [
+            47.64696945072951,
+            6.845198778964195
+        ],
+        "dep_name": "Territoire de Belfort",
+        "dep_code": "90",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "90010",
+        "com_name": "Belfort"
+    },
+    {
+        "geo_point_2d": [
+            48.640031058640076,
+            -1.9808402569200583
+        ],
+        "dep_name": "Ille-et-Vilaine",
+        "dep_code": "35",
+        "reg_name": "Bretagne",
+        "com_code": "35288",
+        "com_name": "Saint-Malo"
+    },
+    {
+        "geo_point_2d": [
+            43.209415864438846,
+            2.3434230307983888
+        ],
+        "dep_name": "Aude",
+        "dep_code": "11",
+        "reg_name": "Occitanie",
+        "com_code": "11069",
+        "com_name": "Carcassonne"
+    },
+    {
+        "geo_point_2d": [
+            42.68641880406781,
+            9.425126627382824
+        ],
+        "dep_name": "Haute-Corse",
+        "dep_code": "2B",
+        "reg_name": "Corse",
+        "com_code": "2B033",
+        "com_name": "Bastia"
+    },
+    {
+        "geo_point_2d": [
+            43.65594768192993,
+            6.931946365171078
+        ],
+        "dep_name": "Alpes-Maritimes",
+        "dep_code": "06",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "06069",
+        "com_name": "Grasse"
+    },
+    {
+        "geo_point_2d": [
+            43.925847139805605,
+            2.1474503348319725
+        ],
+        "dep_name": "Tarn",
+        "dep_code": "81",
+        "reg_name": "Occitanie",
+        "com_code": "81004",
+        "com_name": "Albi"
+    },
+    {
+        "geo_point_2d": [
+            48.06110299564218,
+            -0.7657304088049118
+        ],
+        "dep_name": "Mayenne",
+        "dep_code": "53",
+        "reg_name": "Pays de la Loire",
+        "com_code": "53130",
+        "com_name": "Laval"
+    },
+    {
+        "geo_point_2d": [
+            43.546938483841316,
+            4.661800442642998
+        ],
+        "dep_name": "Bouches-du-Rhône",
+        "dep_code": "13",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "13004",
+        "com_name": "Arles"
+    },
+    {
+        "geo_point_2d": [
+            43.49232915789801,
+            -1.4660261833318287
+        ],
+        "dep_name": "Pyrénées-Atlantiques",
+        "dep_code": "64",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "64102",
+        "com_name": "Bayonne"
+    },
+    {
+        "geo_point_2d": [
+            16.272803929886024,
+            -61.50181731150006
+        ],
+        "dep_name": "Guadeloupe",
+        "dep_code": "971",
+        "reg_name": "Guadeloupe",
+        "com_code": "97101",
+        "com_name": "Les Abymes"
+    },
+    {
+        "geo_point_2d": [
+            49.84738331382868,
+            3.2777338377945417
+        ],
+        "dep_name": "Aisne",
+        "dep_code": "02",
+        "reg_name": "Hauts-de-France",
+        "com_code": "02691",
+        "com_name": "Saint-Quentin"
+    },
+    {
+        "geo_point_2d": [
+            47.65981368539881,
+            -2.757093284634112
+        ],
+        "dep_name": "Morbihan",
+        "dep_code": "56",
+        "reg_name": "Bretagne",
+        "com_code": "56260",
+        "com_name": "Vannes"
+    },
+    {
+        "geo_point_2d": [
+            47.04565455757062,
+            -0.8775335055420624
+        ],
+        "dep_name": "Maine-et-Loire",
+        "dep_code": "49",
+        "reg_name": "Pays de la Loire",
+        "com_code": "49099",
+        "com_name": "Cholet"
+    },
+    {
+        "geo_point_2d": [
+            49.567890209722115,
+            3.6211529553404302
+        ],
+        "dep_name": "Aisne",
+        "dep_code": "02",
+        "reg_name": "Hauts-de-France",
+        "com_code": "02408",
+        "com_name": "Laon"
+    },
+    {
+        "geo_point_2d": [
+            43.1650338972659,
+            3.020199295053034
+        ],
+        "dep_name": "Aude",
+        "dep_code": "11",
+        "reg_name": "Occitanie",
+        "com_code": "11262",
+        "com_name": "Narbonne"
+    },
+    {
+        "geo_point_2d": [
+            49.436198066997086,
+            2.0863584517909652
+        ],
+        "dep_name": "Oise",
+        "dep_code": "60",
+        "reg_name": "Hauts-de-France",
+        "com_code": "60057",
+        "com_name": "Beauvais"
+    },
+    {
+        "geo_point_2d": [
+            47.75071529391062,
+            -3.3789213430670575
+        ],
+        "dep_name": "Morbihan",
+        "dep_code": "56",
+        "reg_name": "Bretagne",
+        "com_code": "56121",
+        "com_name": "Lorient"
+    },
+    {
+        "geo_point_2d": [
+            45.5836128034187,
+            5.908824610173568
+        ],
+        "dep_name": "Savoie",
+        "dep_code": "73",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "73065",
+        "com_name": "Chambéry"
+    },
+    {
+        "geo_point_2d": [
+            46.328491482904205,
+            -0.46525850253074436
+        ],
+        "dep_name": "Deux-Sèvres",
+        "dep_code": "79",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "79191",
+        "com_name": "Niort"
+    },
+    {
+        "geo_point_2d": [
+            47.515666269521084,
+            6.791812030057186
+        ],
+        "dep_name": "Doubs",
+        "dep_code": "25",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "25388",
+        "com_name": "Montbéliard"
+    },
+    {
+        "geo_point_2d": [
+            48.29673392391938,
+            4.07843978244753
+        ],
+        "dep_name": "Aube",
+        "dep_code": "10",
+        "reg_name": "Grand Est",
+        "com_code": "10387",
+        "com_name": "Troyes"
+    },
+    {
+        "geo_point_2d": [
+            47.99709817185167,
+            -4.09109883337245
+        ],
+        "dep_name": "Finistère",
+        "dep_code": "29",
+        "reg_name": "Bretagne",
+        "com_code": "29232",
+        "com_name": "Quimper"
+    },
+    {
+        "geo_point_2d": [
+            47.074946615355906,
+            2.4046471970308336
+        ],
+        "dep_name": "Cher",
+        "dep_code": "18",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "18033",
+        "com_name": "Bourges"
+    },
+    {
+        "geo_point_2d": [
+            44.9333,
+            4.8917
+        ],
+        "dep_name": "Drôme",
+        "dep_code": "26",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "26362",
+        "com_name": "Valence"
+    },
+    {
+        "geo_point_2d": [
+            4.933855741816587,
+            -52.316535317079094
+        ],
+        "dep_name": "Guyane",
+        "dep_code": "973",
+        "reg_name": "Guyane",
+        "com_code": "97302",
+        "com_name": "Cayenne"
+    },
+    {
+        "geo_point_2d": [
+            49.03666666666667,
+            2.066666666666667
+        ],
+        "dep_name": "Val-d'Oise",
+        "dep_code": "95",
+        "reg_name": "Île-de-France",
+        "com_code": "95127",
+        "com_name": "Cergy-Pontoise"
+    },
+    {
+        "geo_point_2d": [
+            48.109935097955486,
+            7.384872959963829
+        ],
+        "dep_name": "Haut-Rhin",
+        "dep_code": "68",
+        "reg_name": "Grand Est",
+        "com_code": "68066",
+        "com_name": "Colmar"
+    },
+    {
+        "geo_point_2d": [
+            41.93472871655731,
+            8.700935184219858
+        ],
+        "dep_name": "Corse-du-Sud",
+        "dep_code": "2A",
+        "reg_name": "Corse",
+        "com_code": "2A004",
+        "com_name": "Ajaccio"
+    },
+    {
+        "geo_point_2d": [
+            47.2735,
+            -2.2138
+        ],
+        "dep_name": "Loire-Atlantique",
+        "dep_code": "44",
+        "reg_name": "Pays de la Loire",
+        "com_code": "44184",
+        "com_name": "Saint-Nazaire"
+    },
+    {
+        "geo_point_2d": [
+            50.952318755514554,
+            1.874400348109917
+        ],
+        "dep_name": "Pas-de-Calais",
+        "dep_code": "62",
+        "reg_name": "Hauts-de-France",
+        "com_code": "62193",
+        "com_name": "Calais"
+    },
+    {
+        "geo_point_2d": [
+            43.55207006512119,
+            7.004752274466988
+        ],
+        "dep_name": "Alpes-Maritimes",
+        "dep_code": "06",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "06029",
+        "com_name": "Cannes"
+    },
+    {
+        "geo_point_2d": [
+            43.320042250913986,
+            -0.3501435180271601
+        ],
+        "dep_name": "Pyrénées-Atlantiques",
+        "dep_code": "64",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "64445",
+        "com_name": "Pau"
+    },
+    {
+        "geo_point_2d": [
+            14.640525023262311,
+            -61.0689404650969
+        ],
+        "dep_name": "Martinique",
+        "dep_code": "972",
+        "reg_name": "Martinique",
+        "com_code": "97209",
+        "com_name": "Fort-de-France"
+    },
+    {
+        "geo_point_2d": [
+            46.1603,
+            -1.1511
+        ],
+        "dep_name": "Charente-Maritime",
+        "dep_code": "17",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "17300",
+        "com_name": "La Rochelle"
+    },
+    {
+        "geo_point_2d": [
+            43.34746712081693,
+            3.2308590445853773
+        ],
+        "dep_name": "Hérault",
+        "dep_code": "34",
+        "reg_name": "Occitanie",
+        "com_code": "34032",
+        "com_name": "Béziers"
+    },
+    {
+        "geo_point_2d": [
+            49.63175337986382,
+            -1.6209285290510416
+        ],
+        "dep_name": "Manche",
+        "dep_code": "50",
+        "reg_name": "Normandie",
+        "com_code": "50129",
+        "com_name": "Cherbourg-en-Cotentin"
+    },
+    {
+        "geo_point_2d": [
+            48.80228007498816,
+            2.1174370377913276
+        ],
+        "dep_name": "Yvelines",
+        "dep_code": "78",
+        "reg_name": "Île-de-France",
+        "com_code": "78646",
+        "com_name": "Versailles"
+    },
+    {
+        "geo_point_2d": [
+            46.778399900877304,
+            -56.1780428208693
+        ],
+        "dep_name": "Saint-Pierre-et-Miquelon",
+        "dep_code": "975",
+        "reg_name": "Saint-Pierre-et-Miquelon",
+        "com_code": "97416",
+        "com_name": "Saint-Pierre"
+    },
+    {
+        "geo_point_2d": [
+            51.03010743009024,
+            2.3366911846862606
+        ],
+        "dep_name": "Nord",
+        "dep_code": "59",
+        "reg_name": "Hauts-de-France",
+        "com_code": "59183",
+        "com_name": "Dunkerque"
+    },
+    {
+        "geo_point_2d": [
+            46.58364498868512,
+            0.35957069024670607
+        ],
+        "dep_name": "Vienne",
+        "dep_code": "86",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "86194",
+        "com_name": "Poitiers"
+    },
+    {
+        "geo_point_2d": [
+            43.93544133869827,
+            4.841098355646338
+        ],
+        "dep_name": "Vaucluse",
+        "dep_code": "84",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "84007",
+        "com_name": "Avignon"
+    },
+    {
+        "geo_point_2d": [
+            -22.2735,
+            166.4481
+        ],
+        "dep_name": "Nouvelle-Calédonie",
+        "dep_code": "988",
+        "reg_name": "Nouvelle-Calédonie",
+        "com_code": "98818",
+        "com_name": "Nouméa"
+    },
+    {
+        "geo_point_2d": [
+            48.69006764463905,
+            6.175257274917659
+        ],
+        "dep_name": "Meurthe-et-Moselle",
+        "dep_code": "54",
+        "reg_name": "Grand Est",
+        "com_code": "54395",
+        "com_name": "Nancy"
+    },
+    {
+        "geo_point_2d": [
+            49.18497872139692,
+            -0.3698887117547426
+        ],
+        "dep_name": "Calvados",
+        "dep_code": "14",
+        "reg_name": "Normandie",
+        "com_code": "14118",
+        "com_name": "Caen"
+    },
+    {
+        "geo_point_2d": [
+            47.74899483760244,
+            7.325466274801714
+        ],
+        "dep_name": "Haut-Rhin",
+        "dep_code": "68",
+        "reg_name": "Grand Est",
+        "com_code": "68224",
+        "com_name": "Mulhouse"
+    },
+    {
+        "geo_point_2d": [
+            49.441495687279925,
+            1.0935741501488252
+        ],
+        "dep_name": "Seine-Maritime",
+        "dep_code": "76",
+        "reg_name": "Normandie",
+        "com_code": "76540",
+        "com_name": "Rouen"
+    },
+    {
+        "geo_point_2d": [
+            47.882286956890155,
+            1.9165963160834911
+        ],
+        "dep_name": "Loiret",
+        "dep_code": "45",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "45234",
+        "com_name": "Orléans"
+    },
+    {
+        "geo_point_2d": [
+            47.255181447655815,
+            6.01930904067752
+        ],
+        "dep_name": "Doubs",
+        "dep_code": "25",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "25056",
+        "com_name": "Besançon"
+    },
+    {
+        "geo_point_2d": [
+            49.10819319746287,
+            6.195986999932384
+        ],
+        "dep_name": "Moselle",
+        "dep_code": "57",
+        "reg_name": "Grand Est",
+        "com_code": "57463",
+        "com_name": "Metz"
+    },
+    {
+        "geo_point_2d": [
+            42.69644117155816,
+            2.898977694451402
+        ],
+        "dep_name": "Pyrénées-Orientales",
+        "dep_code": "66",
+        "reg_name": "Occitanie",
+        "com_code": "66136",
+        "com_name": "Perpignan"
+    },
+    {
+        "geo_point_2d": [
+            45.90164485734518,
+            6.118097146193218
+        ],
+        "dep_name": "Haute-Savoie",
+        "dep_code": "74",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "74010",
+        "com_name": "Annecy"
+    },
+    {
+        "geo_point_2d": [
+            45.85440767531533,
+            1.248830603209566
+        ],
+        "dep_name": "Haute-Vienne",
+        "dep_code": "87",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "87085",
+        "com_name": "Limoges"
+    },
+    {
+        "geo_point_2d": [
+            49.900410806810655,
+            2.2897053066891297
+        ],
+        "dep_name": "Somme",
+        "dep_code": "80",
+        "reg_name": "Hauts-de-France",
+        "com_code": "80021",
+        "com_name": "Amiens"
+    },
+    {
+        "geo_point_2d": [
+            47.39841051321137,
+            0.6961011102412137
+        ],
+        "dep_name": "Indre-et-Loire",
+        "dep_code": "37",
+        "reg_name": "Centre-Val de Loire",
+        "com_code": "37261",
+        "com_name": "Tours"
+    },
+    {
+        "geo_point_2d": [
+            48.40034632543598,
+            -4.502482881682979
+        ],
+        "dep_name": "Finistère",
+        "dep_code": "29",
+        "reg_name": "Bretagne",
+        "com_code": "29019",
+        "com_name": "Brest"
+    },
+    {
+        "geo_point_2d": [
+            47.98867539078809,
+            0.20011984005918768
+        ],
+        "dep_name": "Sarthe",
+        "dep_code": "72",
+        "reg_name": "Pays de la Loire",
+        "com_code": "72181",
+        "com_name": "Le Mans"
+    },
+    {
+        "geo_point_2d": [
+            43.53611267355178,
+            5.398630255738912
+        ],
+        "dep_name": "Bouches-du-Rhône",
+        "dep_code": "13",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "13001",
+        "com_name": "Aix-en-Provence"
+    },
+    {
+        "geo_point_2d": [
+            45.78591280560008,
+            3.1153998260121347
+        ],
+        "dep_name": "Puy-de-Dôme",
+        "dep_code": "63",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "63113",
+        "com_name": "Clermont-Ferrand"
+    },
+    {
+        "geo_point_2d": [
+            43.84465747886452,
+            4.347591290431982
+        ],
+        "dep_name": "Gard",
+        "dep_code": "30",
+        "reg_name": "Occitanie",
+        "com_code": "30189",
+        "com_name": "Nîmes"
+    },
+    {
+        "geo_point_2d": [
+            -20.93303046667502,
+            55.446979185790944
+        ],
+        "dep_name": "La Réunion",
+        "dep_code": "974",
+        "reg_name": "La Réunion",
+        "com_code": "97411",
+        "com_name": "Saint-Denis"
+    },
+    {
+        "geo_point_2d": [
+            47.47665734439312,
+            -0.5562207221704485
+        ],
+        "dep_name": "Maine-et-Loire",
+        "dep_code": "49",
+        "reg_name": "Pays de la Loire",
+        "com_code": "49007",
+        "com_name": "Angers"
+    },
+    {
+        "geo_point_2d": [
+            47.32285091197751,
+            5.037467546751406
+        ],
+        "dep_name": "Côte-d'Or",
+        "dep_code": "21",
+        "reg_name": "Bourgogne-Franche-Comté",
+        "com_code": "21231",
+        "com_name": "Dijon"
+    },
+    {
+        "geo_point_2d": [
+            45.182206160783,
+            5.72122137382929
+        ],
+        "dep_name": "Isère",
+        "dep_code": "38",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "38185",
+        "com_name": "Grenoble"
+    },
+    {
+        "geo_point_2d": [
+            49.49832222316658,
+            0.14097009970489943
+        ],
+        "dep_name": "Seine-Maritime",
+        "dep_code": "76",
+        "reg_name": "Normandie",
+        "com_code": "76351",
+        "com_name": "Le Havre"
+    },
+    {
+        "geo_point_2d": [
+            45.43022828839624,
+            4.378744832377574
+        ],
+        "dep_name": "Loire",
+        "dep_code": "42",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "42218",
+        "com_name": "Saint-Étienne"
+    },
+    {
+        "geo_point_2d": [
+            43.13654154034405,
+            5.932590803585974
+        ],
+        "dep_name": "Var",
+        "dep_code": "83",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "83137",
+        "com_name": "Toulon"
+    },
+    {
+        "geo_point_2d": [
+            49.251726259925924,
+            4.04015509878209
+        ],
+        "dep_name": "Marne",
+        "dep_code": "51",
+        "reg_name": "Grand Est",
+        "com_code": "51454",
+        "com_name": "Reims"
+    },
+    {
+        "geo_point_2d": [
+            48.11168041032343,
+            -1.6818701523279307
+        ],
+        "dep_name": "Ille-et-Vilaine",
+        "dep_code": "35",
+        "reg_name": "Bretagne",
+        "com_code": "35238",
+        "com_name": "Rennes"
+    },
+    {
+        "geo_point_2d": [
+            50.63185509471132,
+            3.0469865044470033
+        ],
+        "dep_name": "Nord",
+        "dep_code": "59",
+        "reg_name": "Hauts-de-France",
+        "com_code": "59350",
+        "com_name": "Lille"
+    },
+    {
+        "geo_point_2d": [
+            44.857622880321095,
+            -0.5733792649722094
+        ],
+        "dep_name": "Gironde",
+        "dep_code": "33",
+        "reg_name": "Nouvelle-Aquitaine",
+        "com_code": "33063",
+        "com_name": "Bordeaux"
+    },
+    {
+        "geo_point_2d": [
+            48.57126522529452,
+            7.767760688404375
+        ],
+        "dep_name": "Bas-Rhin",
+        "dep_code": "67",
+        "reg_name": "Grand Est",
+        "com_code": "67482",
+        "com_name": "Strasbourg"
+    },
+    {
+        "geo_point_2d": [
+            43.61335436315057,
+            3.8692647645949623
+        ],
+        "dep_name": "Hérault",
+        "dep_code": "34",
+        "reg_name": "Occitanie",
+        "com_code": "34172",
+        "com_name": "Montpellier"
+    },
+    {
+        "geo_point_2d": [
+            47.232046556955076,
+            -1.5482036309462048
+        ],
+        "dep_name": "Loire-Atlantique",
+        "dep_code": "44",
+        "reg_name": "Pays de la Loire",
+        "com_code": "44109",
+        "com_name": "Nantes"
+    },
+    {
+        "geo_point_2d": [
+            43.59603828478293,
+            1.4320950295864951
+        ],
+        "dep_name": "Haute-Garonne",
+        "dep_code": "31",
+        "reg_name": "Occitanie",
+        "com_code": "31555",
+        "com_name": "Toulouse"
+    },
+    {
+        "geo_point_2d": [
+            45.75491596185013,
+            4.836345857435339
+        ],
+        "dep_name": "Rhône",
+        "dep_code": "69",
+        "reg_name": "Auvergne-Rhône-Alpes",
+        "com_code": "69123",
+        "com_name": "Lyon"
+    },
+    {
+        "geo_point_2d": [
+            43.71236815696735,
+            7.237932454163633
+        ],
+        "dep_name": "Alpes-Maritimes",
+        "dep_code": "06",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "06088",
+        "com_name": "Nice"
+    },
+    {
+        "geo_point_2d": [
+            43.2917259484129,
+            5.420418781201488
+        ],
+        "dep_name": "Bouches-du-Rhône",
+        "dep_code": "13",
+        "reg_name": "Provence-Alpes-Côte d'Azur",
+        "com_code": "13055",
+        "com_name": "Marseille"
+    },
+    {
+        "geo_point_2d": [
+            48.85661514984926,
+            2.3429151836931577
+        ],
+        "dep_name": "Paris",
+        "dep_code": "75",
+        "reg_name": "Île-de-France",
+        "com_code": "75056",
+        "com_name": "Paris"
+    }
+]
