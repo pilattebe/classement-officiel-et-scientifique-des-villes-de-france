@@ -97,6 +97,38 @@ export default function App() {
 					</div>
 				</Show>
 			</div>
+			<SponsorMe />
+		</div>
+	);
+}
+
+function SponsorMe() {
+	// This is the iframe to embed
+
+	return (
+		<div class="m-1 flex flex-row flex-wrap items-center justify-end p-1 shadow-2xl">
+			<a
+				href="https://github.com/sponsors/pilatte"
+				target="_blank"
+				rel="noreferrer"
+				class="  hidden  text-lg font-bold leading-normal text-amber-500 sm:inline-block"
+			>
+				Soutenez moi sur Github @pilatte
+				<img
+					src="https://avatars.githubusercontent.com/u/34147102?s=40&u=501359a7ec40a19eabab63fee7edf67bdedc8859&v=4"
+					alt="Sponsor pilatte"
+					height="32"
+					width="32"
+					class="mx-2 inline-block rounded-full border-2 border-amber-500 align-middle"
+				/>
+			</a>
+			<iframe
+				src="https://github.com/sponsors/pilatte/button"
+				title="Sponsor pilatte"
+				height="32"
+				width="114"
+				class=" inline-block rounded-lg border-0"
+			></iframe>
 		</div>
 	);
 }
@@ -151,15 +183,32 @@ function Stats() {
 function SearchBar() {
 	return (
 		<>
-			<input
-				type="text"
-				onChange={(e) => search(e.currentTarget?.value ?? "")}
-				id="searchBar"
-				value={searchBarValue()}
-				placeholder="Rechercher une ville..."
-				onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
-				class="rounded-lg border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500 sm:w-96"
-			/>
+			<div class="relative">
+				<input
+					type="text"
+					onChange={(e) => search(e.currentTarget?.value ?? "")}
+					id="searchBar"
+					value={searchBarValue()}
+					placeholder="Rechercher une ville..."
+					onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
+					class="rounded-lg border-2  border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500 sm:w-96"
+				/>
+				<button
+					onClick={() => {
+						setSearchBarValue("");
+						search("");
+					}}
+					class="clear-button absolute top-0 right-0 p-2.5 text-amber-500 hover:text-white"
+				>
+					<svg viewBox="0 0 20 20" fill="currentColor" class="x-circle h-6 w-6">
+						<path
+							fill-rule="evenodd"
+							d="M10 18A8 8 0 102 10a8 8 0 008 8zm1.41-10l3.3-3.29a1 1 0 10-1.42-1.42L10 8.59 6.71 5.29a1 1 0 00-1.42 1.42L8.59 10l-3.3 3.29a1 1 0 101.42 1.42L10 11.41l3.29 3.3a1 1 0 001.42-1.42L11.41 10z"
+							clip-rule="evenodd"
+						/>
+					</svg>
+				</button>
+			</div>
 			<div
 				class="bg-ad z-10 mx-2 grid max-h-[75vh] overflow-auto rounded-b-lg"
 				id="searchResults"
@@ -319,7 +368,7 @@ function initializeMap() {
 			}),
 			new VectorLayer({
 				source: new VectorSource({
-					attributions: "Website by BENOIT PILATTE",
+					attributions: "PILATTE",
 				}),
 			}),
 		],
