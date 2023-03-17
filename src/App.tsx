@@ -1,9 +1,11 @@
 import { Collection, Feature, Map as olMap, View } from "ol";
 import { Attribution } from "ol/control";
+import { click } from "ol/events/condition";
 import { extend } from "ol/extent";
 import { FeatureLike } from "ol/Feature";
 import { GeoJSON } from "ol/format";
 import { Geometry, Point } from "ol/geom";
+import { defaults, Select } from "ol/interaction";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import "ol/ol.css";
 import { fromLonLat, useGeographic } from "ol/proj.js";
@@ -68,13 +70,15 @@ export default function App() {
 
 	return (
 		<div class="bg-ad flex h-screen flex-col">
-			<div class="tall:flex z-10 hidden flex-wrap items-center justify-center p-4 shadow-2xl">
-				<img src={logoAD} class="mx-2 h-10" />
-				<span class="mx-2 hidden text-2xl font-bold leading-normal text-amber-500 md:block">
-					Classement&nbsp;Officiel et&nbsp;Scientifique
-					des&nbsp;Villes&nbsp;de&nbsp;France
-				</span>
-			</div>
+			{new URLSearchParams(window.location.search).get("hideNavbar") !== "true" && (
+				<div class="tall:flex z-10 hidden flex-wrap items-center justify-center p-4 shadow-2xl">
+					<img src={logoAD} class="mx-2 h-10" />
+					<span class="mx-2 hidden text-2xl font-bold leading-normal text-amber-500 md:block">
+						Classement&nbsp;Officiel et&nbsp;Scientifique
+						des&nbsp;Villes&nbsp;de&nbsp;France
+					</span>
+				</div>
+			)}
 			<div class="relative flex flex-1">
 				<div id="map" class="flex-1" />
 				<Show when={!currentTown()}>
@@ -111,9 +115,9 @@ function SponsorMe() {
 				href="https://github.com/sponsors/pilatte"
 				target="_blank"
 				rel="noreferrer"
-				class="  hidden  text-lg font-bold leading-normal text-amber-500 sm:inline-block"
+				class="text-lg font-bold leading-normal text-amber-500"
 			>
-				Soutenez moi sur Github @pilatte
+				<span class="hidden sm:inline-block">Soutenez moi sur Github</span> @pilatte
 				<img
 					src="https://avatars.githubusercontent.com/u/34147102?s=40&u=501359a7ec40a19eabab63fee7edf67bdedc8859&v=4"
 					alt="Sponsor pilatte"
@@ -201,10 +205,7 @@ function SearchBar() {
 					class="w-full rounded-lg  border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500 "
 				/>
 				<button
-					onClick={() => {
-						setSearchBarValue("");
-						search("");
-					}}
+					onClick={() => setSearchBar("")}
 					class="clear-button absolute top-0 right-0 p-2.5 text-amber-500 hover:text-white"
 				>
 					<svg viewBox="0 0 20 20" fill="currentColor" class="x-circle h-6 w-6">
@@ -224,13 +225,7 @@ function SearchBar() {
 					{(e) => (
 						<div
 							class="search-suggestion border-b-[1px] border-amber-400 px-2 py-2 text-amber-400 hover:bg-amber-900 sm:py-1"
-							onClick={() => {
-								setSearchBarValue(e.metadata.com_name);
-								setMatchingTowns([]);
-								search(e.metadata.com_name);
-								(document.getElementById("searchBar") as HTMLInputElement).value =
-									e.metadata.com_name;
-							}}
+							onClick={() => setSearchBar(e.metadata.com_name)}
 						>
 							{e.metadata.com_name}
 						</div>
@@ -239,6 +234,13 @@ function SearchBar() {
 			</div>
 		</>
 	);
+}
+
+function setSearchBar(str: string) {
+	setSearchBarValue(str);
+	setMatchingTowns([]);
+	search(str);
+	(document.getElementById("searchBar") as HTMLInputElement).value = str;
 }
 
 // async function search(e: Event) {
@@ -379,9 +381,18 @@ function initializeMap() {
 				}),
 			}),
 		],
+		interactions: defaults().extend([getSelect()]),
 	});
 	map.getView().fit(franceExtent, { padding: [50, 50, 50, 50] });
 	return (window.map = map);
+}
+
+function getSelect() {
+	const select = new Select({ multi: false, condition: click, style: null });
+	select.on("select", (e) => {
+		setSearchBar(askGod(e.selected[0])?.metadata.com_name ?? "");
+	});
+	return select;
 }
 
 async function fetchFeatures() {
