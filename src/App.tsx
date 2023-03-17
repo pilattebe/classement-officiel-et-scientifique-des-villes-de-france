@@ -68,7 +68,7 @@ export default function App() {
 
 	return (
 		<div class="bg-ad flex h-screen flex-col">
-			<div class="z-10 flex flex-wrap items-center justify-center p-4 shadow-2xl">
+			<div class="tall:flex z-10 hidden flex-wrap items-center justify-center p-4 shadow-2xl">
 				<img src={logoAD} class="mx-2 h-10" />
 				<span class="mx-2 hidden text-2xl font-bold leading-normal text-amber-500 md:block">
 					Classement&nbsp;Officiel et&nbsp;Scientifique
@@ -79,7 +79,7 @@ export default function App() {
 				<div id="map" class="flex-1" />
 				<Show when={!currentTown()}>
 					<div
-						class="absolute right-0 top-0 left-0 z-10 m-5 flex flex-col bg-amber-800 bg-transparent sm:left-auto"
+						class="absolute right-0 top-0 left-0 z-10 m-5 flex flex-col bg-amber-800 bg-transparent sm:left-auto sm:w-96"
 						id="sidebar"
 					>
 						<SearchBar />
@@ -88,7 +88,7 @@ export default function App() {
 
 				<Show when={currentTown()}>
 					<div
-						class="absolute bottom-0 top-0 right-0 left-0 z-10 flex flex-col bg-amber-800 bg-opacity-50 p-5 backdrop-blur-sm sm:left-auto"
+						class="absolute bottom-0 top-0 right-0 left-0 z-10 flex flex-col overflow-y-auto bg-amber-800 bg-opacity-50 p-5 backdrop-blur-sm sm:left-auto sm:w-[26.5rem]"
 						id="sidebar"
 					>
 						<SearchBar />
@@ -143,47 +143,54 @@ function Stats() {
 	// The name is right aligned
 	// The value is left aligned
 	return (
-		<div class="mt-5 grid grid-cols-2 gap-1 rounded-lg border-2 border-amber-500 bg-amber-700 p-5 text-xl  text-white">
-			<div>Nom</div>
-			<div>
-				<b>{town.metadata.com_name}</b>
+		<>
+			<img
+				src={town.score.imageUrl}
+				class=" mt-5 flex w-full rounded-lg border-2 border-amber-500 object-cover"
+			/>
+			{/* <div class="mt-5 flex h-fit w-full flex-shrink rounded-lg border-2 border-amber-500 object-cover"></div> */}
+			<div class="mt-5 grid grid-cols-2 gap-1 rounded-lg border-2 border-amber-500 bg-amber-700 p-5 text-xl  text-white">
+				<div>Nom</div>
+				<div>
+					<b>{town.metadata.com_name}</b>
+				</div>
+				<div>Département</div>
+				<div>
+					<b>{town.metadata.dep_name}</b>
+				</div>
+				<div>Région</div>
+				<div>
+					<b>{town.metadata.reg_name}</b>
+				</div>
+				<div>À vivre</div>
+				<div>
+					<b>{town.score.toLive}</b> /20
+				</div>
+				<div>Culture</div>
+				<div>
+					<b>{town.score.cultural}</b> /20
+				</div>
+				<div>Histoire</div>
+				<div>
+					<b>{town.score.history}</b> /20
+				</div>
+				<div>Vibe</div>
+				<div>
+					<b>{town.score.vibe}</b> /20
+				</div>
+				<div>Score Total</div>
+				<div>
+					<b>{town.score.total}</b> /80
+				</div>
 			</div>
-			<div>Département</div>
-			<div>
-				<b>{town.metadata.dep_name}</b>
-			</div>
-			<div>Région</div>
-			<div>
-				<b>{town.metadata.reg_name}</b>
-			</div>
-			<div>À vivre</div>
-			<div>
-				<b>{town.score.toLive}</b> /20
-			</div>
-			<div>Culture</div>
-			<div>
-				<b>{town.score.cultural}</b> /20
-			</div>
-			<div>Histoire</div>
-			<div>
-				<b>{town.score.history}</b> /20
-			</div>
-			<div>Vibe</div>
-			<div>
-				<b>{town.score.vibe}</b> /20
-			</div>
-			<div>Score Total</div>
-			<div>
-				<b>{town.score.total}</b> /80
-			</div>
-		</div>
+		</>
 	);
 }
 
 function SearchBar() {
 	return (
 		<>
-			<div class="relative">
+			<div class="relative ">
 				<input
 					type="text"
 					onChange={(e) => search(e.currentTarget?.value ?? "")}
@@ -191,7 +198,7 @@ function SearchBar() {
 					value={searchBarValue()}
 					placeholder="Rechercher une ville..."
 					onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
-					class="rounded-lg border-2  border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500 sm:w-96"
+					class="w-full rounded-lg  border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500 "
 				/>
 				<button
 					onClick={() => {

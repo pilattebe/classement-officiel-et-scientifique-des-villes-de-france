@@ -6,6 +6,10 @@ module.exports = {
 			colors: {
 				ad: "rgb(81,14,6)",
 			},
+			screens: {
+				tall: { raw: "(min-height: 700px)" },
+				vtall: { raw: "(min-height: 800px)" },
+			},
 		},
 	},
 	plugins: [],
