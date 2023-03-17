@@ -368,7 +368,7 @@ function initializeMap() {
 			}),
 			new VectorLayer({
 				source: new VectorSource({
-					attributions: "PILATTE",
+					attributions: "@pilatte",
 				}),
 			}),
 		],
