@@ -4,4 +4,4 @@ Antoine Daniel est un streamer et lors de certains streams, il invite des viewer
 
 Je n'ai aucun lien avec Antoine Daniel. Ce projet est l'affichage des résultats sur une carte interractive.
 
-Ce projet m'a demandé beaucoup de temps et d'énergie, j'accepte volontier des sponsors pour m'aider à me lancer dans les projets open-source.
+J'accepte volontier des sponsors pour m'aider à me lancer dans les projets open-source.
