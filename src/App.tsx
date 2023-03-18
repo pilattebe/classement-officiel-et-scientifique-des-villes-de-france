@@ -69,10 +69,10 @@ export default function App() {
 	});
 
 	return (
-		<div class="bg-ad flex h-screen flex-col">
+		<div class="flex h-screen flex-col bg-ad">
 			{new URLSearchParams(window.location.search).get("hideNavbar") !== "true" && (
-				<div class="tall:flex z-10 hidden flex-wrap items-center justify-center p-4 shadow-2xl">
-					<img src={logoAD} class="mx-2 h-10" />
+				<div class="z-10 hidden flex-wrap items-center justify-center p-4 shadow-2xl tall:flex">
+					<img src={logoAD} class="mx-2 h-10 rounded-full" />
 					<span class="mx-2 hidden text-2xl font-bold leading-normal text-amber-500 md:block">
 						Classement&nbsp;Officiel et&nbsp;Scientifique
 						des&nbsp;Villes&nbsp;de&nbsp;France
@@ -218,7 +218,7 @@ function SearchBar() {
 				</button>
 			</div>
 			<div
-				class="bg-ad z-10 mx-2 grid max-h-[75vh] overflow-auto rounded-b-lg"
+				class="z-10 mx-2 grid max-h-[75vh] overflow-auto rounded-b-lg bg-ad"
 				id="searchResults"
 			>
 				<For each={matchingTowns()}>
