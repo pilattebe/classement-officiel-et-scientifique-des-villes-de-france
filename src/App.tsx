@@ -11,7 +11,7 @@ import "ol/ol.css";
 import { fromLonLat, useGeographic } from "ol/proj.js";
 import { OSM, Vector as VectorSource } from "ol/source";
 import { Circle, Fill, Stroke, Style, Text } from "ol/style";
-import { createSignal, For, onMount, Show } from "solid-js";
+import { createEffect, createMemo, createSignal, For, onMount, Show } from "solid-js";
 import * as z from "zod";
 import logoAD from "./assets/logoAD.png";
 import { Colors, GodElement, TownMetadata, townMetadata, townScore, TownScore } from "./types";
@@ -138,53 +138,49 @@ function SponsorMe() {
 }
 
 function Stats() {
-	const town = godObject.get(currentTown() ?? "");
-	if (!town) {
-		console.error("Town not found", currentTown());
-		return null;
-	}
+	const t = createMemo(() => godObject.get(currentTown() ?? "") ?? null);
 	// Return a grid of stats
 	// The name is right aligned
 	// The value is left aligned
 	return (
 		<>
 			<img
-				src={town.score.imageUrl}
+				src={t()?.score.imageUrl}
 				class=" mt-5 flex w-full rounded-lg border-2 border-amber-500 object-cover"
 			/>
 			{/* <div class="mt-5 flex h-fit w-full flex-shrink rounded-lg border-2 border-amber-500 object-cover"></div> */}
 			<div class="mt-5 grid grid-cols-2 gap-1 rounded-lg border-2 border-amber-500 bg-amber-700 p-5 text-xl  text-white">
 				<div>Nom</div>
 				<div>
-					<b>{town.metadata.com_name}</b>
+					<b>{t()?.metadata.com_name}</b>
 				</div>
 				<div>Département</div>
 				<div>
-					<b>{town.metadata.dep_name}</b>
+					<b>{t()?.metadata.dep_name}</b>
 				</div>
 				<div>Région</div>
 				<div>
-					<b>{town.metadata.reg_name}</b>
+					<b>{t()?.metadata.reg_name}</b>
 				</div>
 				<div>À vivre</div>
 				<div>
-					<b>{town.score.toLive}</b> /20
+					<b>{t()?.score.toLive}</b> /20
 				</div>
 				<div>Culture</div>
 				<div>
-					<b>{town.score.cultural}</b> /20
+					<b>{t()?.score.cultural}</b> /20
 				</div>
 				<div>Histoire</div>
 				<div>
-					<b>{town.score.history}</b> /20
+					<b>{t()?.score.history}</b> /20
 				</div>
 				<div>Vibe</div>
 				<div>
-					<b>{town.score.vibe}</b> /20
+					<b>{t()?.score.vibe}</b> /20
 				</div>
 				<div>Score Total</div>
 				<div>
-					<b>{town.score.total}</b> /80
+					<b>{t()?.score.total}</b> /80
 				</div>
 			</div>
 		</>
@@ -381,7 +377,9 @@ function initializeMap() {
 				}),
 			}),
 		],
-		interactions: defaults().extend([getSelect()]),
+		interactions: defaults({ altShiftDragRotate: false, pinchRotate: false }).extend([
+			getSelect(),
+		]),
 	});
 	map.getView().fit(franceExtent, { padding: [50, 50, 50, 50] });
 	return (window.map = map);
