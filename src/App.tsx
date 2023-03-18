@@ -12,8 +12,10 @@ import { fromLonLat, useGeographic } from "ol/proj.js";
 import { OSM, Vector as VectorSource } from "ol/source";
 import { Circle, Fill, Stroke, Style, Text } from "ol/style";
 import { createEffect, createMemo, createSignal, For, onMount, Show } from "solid-js";
+import logoGH from "src/assets/github-mark-white.svg";
 import * as z from "zod";
 import logoAD from "./assets/logoAD.png";
+import { Footer } from "./Footer";
 import { Colors, GodElement, TownMetadata, townMetadata, townScore, TownScore } from "./types";
 
 useGeographic();
@@ -101,38 +103,7 @@ export default function App() {
 					</div>
 				</Show>
 			</div>
-			<SponsorMe />
-		</div>
-	);
-}
-
-function SponsorMe() {
-	// This is the iframe to embed
-
-	return (
-		<div class="m-1 flex flex-row flex-wrap items-center justify-end p-1 shadow-2xl">
-			<a
-				href="https://github.com/sponsors/pilatte"
-				target="_blank"
-				rel="noreferrer"
-				class="text-lg font-bold leading-normal text-amber-500"
-			>
-				<span class="hidden sm:inline-block">Soutenez moi sur Github</span> @pilatte
-				<img
-					src="https://avatars.githubusercontent.com/u/34147102?s=40&u=501359a7ec40a19eabab63fee7edf67bdedc8859&v=4"
-					alt="Sponsor pilatte"
-					height="32"
-					width="32"
-					class="mx-2 inline-block rounded-full border-2 border-amber-500 align-middle"
-				/>
-			</a>
-			<iframe
-				src="https://github.com/sponsors/pilatte/button"
-				title="Sponsor pilatte"
-				height="32"
-				width="114"
-				class=" inline-block rounded-lg border-0"
-			></iframe>
+			<Footer />
 		</div>
 	);
 }

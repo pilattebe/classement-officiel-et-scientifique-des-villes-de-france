@@ -9,6 +9,7 @@ module.exports = {
 			screens: {
 				tall: { raw: "(min-height: 700px)" },
 				vtall: { raw: "(min-height: 800px)" },
+				ssm: { raw: "(min-width: 500px)" },
 			},
 		},
 	},
