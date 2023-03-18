@@ -379,13 +379,17 @@ async function fetchFeatures() {
 			if (!score) {
 				throw new Error(`No score found for ${town.com_name}`);
 			}
+			const outline = setOutlineFeature(town, score);
+			const point = setPointFeature(town, score);
+			const text = setTextFeature(town, score);
+			const colors = getColors(score.total);
 			godObject.set(town.com_name, {
 				metadata: town,
 				score: score,
-				outline: await setOutlineFeature(town, score),
-				point: await setPointFeature(town, score),
-				text: await setTextFeature(town, score),
-				colors: getColors(score.total),
+				outline: await outline,
+				point: await point,
+				text: await text,
+				colors: colors,
 			});
 		})
 	);
