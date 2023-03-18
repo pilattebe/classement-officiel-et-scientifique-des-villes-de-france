@@ -205,7 +205,11 @@ function SearchBar() {
 
 function setSearchBar(str: string) {
 	setSearchBarValue(str);
-	setMatchingTowns([]);
+	if (!str) {
+		setMatchingTowns(Array.from(godObject.values()));
+	} else {
+		setMatchingTowns(Array.from(filter(str)));
+	}
 	search(str);
 	(document.getElementById("searchBar") as HTMLInputElement).value = str;
 }
@@ -452,7 +456,7 @@ async function setOutlineFeature(town: TownMetadata, score: TownScore) {
 }
 
 function askGod(feature: FeatureLike) {
-	return godObject.get(feature.get("ref"));
+	return godObject.get(feature?.get("ref") ?? "");
 }
 
 function getColors(score: number): Colors {
