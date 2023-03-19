@@ -1309,12 +1309,12 @@
     },
     {
         "geo_point_2d": [
-            46.778399900877304,
-            -56.1780428208693
+            -21.312264398316707,
+            55.49381182562896
         ],
-        "dep_name": "Saint-Pierre-et-Miquelon",
-        "dep_code": "975",
-        "reg_name": "Saint-Pierre-et-Miquelon",
+        "dep_name": "La Réunion",
+        "dep_code": "974",
+        "reg_name": "La Réunion",
         "com_code": "97416",
         "com_name": "Saint-Pierre",
         "population": 84212
