@@ -285,6 +285,7 @@ async function search(e: string) {
 	setSearchBarValue(e);
 	if (!e || !godObject.has(e)) {
 		setCurrentTown(null);
+		selectedPoint.clear();
 		return;
 	}
 	const town = godObject.get(e)!;
