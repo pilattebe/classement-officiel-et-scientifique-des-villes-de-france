@@ -23,6 +23,7 @@ useGeographic();
 let map: olMap;
 let scores: TownScore[];
 const pointsFeatures = new Collection<Feature<Point>>();
+const selectedPoint = new Collection<Feature<Point>>();
 const textFeatures = new Collection<Feature<Point>>();
 const outlineFeatures = new Collection<Feature<Geometry>>();
 
@@ -287,6 +288,20 @@ async function search(e: string) {
 		return;
 	}
 	const town = godObject.get(e)!;
+	selectedPoint.clear();
+	const point = town.point.clone();
+	point?.setStyle(
+		new Style({
+			image: new Circle({
+				radius: 15,
+				stroke: new Stroke({
+					color: "rgba(0, 0, 255, 0.5)",
+					width: 5,
+				}),
+			}),
+		})
+	);
+	if (point) selectedPoint.push(point);
 	setCurrentTown(town.metadata.com_name);
 	const padding = [50, 50 + 384, 50, 50];
 	const outView = new View();
@@ -348,6 +363,12 @@ function initializeMap() {
 			}),
 			new VectorLayer({
 				source: new VectorSource({
+					features: selectedPoint,
+				}),
+				zIndex: 4,
+			}),
+			new VectorLayer({
+				source: new VectorSource({
 					attributions: "@pilatte",
 				}),
 			}),
@@ -363,8 +384,10 @@ function initializeMap() {
 function getSelect() {
 	const select = new Select({ multi: false, condition: click, style: null });
 	select.on("select", (e) => {
-		setSearchBar(askGod(e.selected[0])?.metadata.com_name ?? "");
+		const go = askGod(e.selected[0]);
+		setSearchBar(go?.metadata.com_name ?? "");
 	});
+
 	return select;
 }
 
