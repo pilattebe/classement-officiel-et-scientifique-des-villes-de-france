@@ -189,6 +189,7 @@ function SearchBar() {
 					onChange={(e) => search(e.currentTarget?.value ?? "")}
 					id="searchBar"
 					value={searchBarValue()}
+					autocomplete="off"
 					placeholder="Rechercher une ville..."
 					onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
 					class="w-full  rounded-lg border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500"
