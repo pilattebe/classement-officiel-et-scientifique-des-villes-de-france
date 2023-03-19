@@ -175,6 +175,17 @@ function Stats() {
 						Lien wikipedia
 					</a>
 				</div>
+				<div class="col-span-2 underline">
+					<a
+						href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(
+							t()?.metadata.com_code || ""
+						)}+${encodeURIComponent(t()?.metadata.com_name || "")}`}
+						target="_blank"
+						rel="noreferrer"
+					>
+						Lien Google Maps
+					</a>
+				</div>
 			</div>
 		</>
 	);
