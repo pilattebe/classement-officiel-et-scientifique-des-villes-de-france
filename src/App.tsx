@@ -109,6 +109,14 @@ export default function App() {
 	);
 }
 
+function getNumber(num: number) {
+	const units = ["", "k", "M", "B"];
+	const unit = Math.floor((num / 1.0e1).toFixed(0).toString().length);
+	const r = unit % 3;
+	const x = Math.abs(Number(num)) / +Number("1.0e+" + (unit - r)).toFixed(2);
+	return x.toFixed(1).replace(".", ",") + " " + units[Math.floor(unit / 3)];
+}
+
 function Stats() {
 	const t = createMemo(() => godObject.get(currentTown() ?? "") ?? null);
 	// Return a grid of stats
@@ -134,6 +142,10 @@ function Stats() {
 				<div>
 					<b>{t()?.metadata.reg_name}</b>
 				</div>
+				<div>Population</div>
+				<div>
+					<b>{getNumber(t()?.metadata.population || 0)}</b>
+				</div>
 				<div>À vivre</div>
 				<div>
 					<b>{t()?.score.toLive}</b> /20
@@ -154,6 +166,15 @@ function Stats() {
 				<div>
 					<b>{t()?.score.total}</b> /80
 				</div>
+				<div class="col-span-2 underline">
+					<a
+						href={`https://fr.wikipedia.org/?curid=${t()?.score.wikiUrl}}`}
+						target="_blank"
+						rel="noreferrer"
+					>
+						Lien wikipedia
+					</a>
+				</div>
 			</div>
 		</>
 	);
@@ -170,7 +191,7 @@ function SearchBar() {
 					value={searchBarValue()}
 					placeholder="Rechercher une ville..."
 					onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
-					class="w-full rounded-lg  border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500 "
+					class="w-full  rounded-lg border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500"
 				/>
 				<button
 					onClick={() => setSearchBar("")}
@@ -184,21 +205,21 @@ function SearchBar() {
 						/>
 					</svg>
 				</button>
-			</div>
-			<div
-				class="z-10 mx-2 grid max-h-[75vh] overflow-auto rounded-b-lg bg-ad"
-				id="searchResults"
-			>
-				<For each={matchingTowns()}>
-					{(e) => (
-						<div
-							class="search-suggestion border-b-[1px] border-amber-400 px-2 py-2 text-amber-400 hover:bg-amber-900 sm:py-1"
-							onClick={() => setSearchBar(e.metadata.com_name)}
-						>
-							{e.metadata.com_name}
-						</div>
-					)}
-				</For>
+				<div
+					class="z-10 mx-2 grid max-h-[75vh] overflow-auto rounded-b-lg bg-ad"
+					id="searchResults"
+				>
+					<For each={matchingTowns()}>
+						{(e) => (
+							<div
+								class="search-suggestion border-b-[1px] border-amber-400 px-2 py-2 text-amber-400 hover:bg-amber-900 sm:py-1"
+								onClick={() => setSearchBar(e.metadata.com_name)}
+							>
+								{e.metadata.com_name}
+							</div>
+						)}
+					</For>
+				</div>
 			</div>
 		</>
 	);
@@ -432,6 +453,16 @@ async function fetchFeatures() {
 				text: await text,
 				colors: getColors(score.total),
 			});
+
+			// // check if population matches (within 10%)
+			// if (Math.abs(town.population - score.inhabitants) / town.population > 0.1) {
+			// 	console.error(
+			// 		town.com_name,
+			// 		"population mismatch",
+			// 		town.population,
+			// 		score.inhabitants
+			// 	);
+			// }
 		})
 	);
 	setMatchingTowns(Array.from(godObject.values()));

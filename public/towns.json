@@ -8,7 +8,8 @@
         "dep_code": "2B",
         "reg_name": "Corse",
         "com_code": "2B096",
-        "com_name": "Corte"
+        "com_name": "Corte",
+        "population": 7446
     },
     {
         "geo_point_2d": [
@@ -19,7 +20,8 @@
         "dep_code": "07",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "07186",
-        "com_name": "Privas"
+        "com_name": "Privas",
+        "population": 8266
     },
     {
         "geo_point_2d": [
@@ -30,7 +32,8 @@
         "dep_code": "09",
         "reg_name": "Occitanie",
         "com_code": "09122",
-        "com_name": "Foix"
+        "com_name": "Foix",
+        "population": 9532
     },
     {
         "geo_point_2d": [
@@ -41,7 +44,8 @@
         "dep_code": "05",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "05023",
-        "com_name": "Briançon"
+        "com_name": "Briançon",
+        "population": 11625
     },
     {
         "geo_point_2d": [
@@ -52,7 +56,8 @@
         "dep_code": "33",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "33009",
-        "com_name": "Arcachon"
+        "com_name": "Arcachon",
+        "population": 11284
     },
     {
         "geo_point_2d": [
@@ -63,7 +68,8 @@
         "dep_code": "48",
         "reg_name": "Occitanie",
         "com_code": "48095",
-        "com_name": "Mende"
+        "com_name": "Mende",
+        "population": 12134
     },
     {
         "geo_point_2d": [
@@ -74,7 +80,8 @@
         "dep_code": "23",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "23096",
-        "com_name": "Guéret"
+        "com_name": "Guéret",
+        "population": 13161
     },
     {
         "geo_point_2d": [
@@ -85,7 +92,8 @@
         "dep_code": "55",
         "reg_name": "Grand Est",
         "com_code": "55029",
-        "com_name": "Bar-le-Duc"
+        "com_name": "Bar-le-Duc",
+        "population": 14985
     },
     {
         "geo_point_2d": [
@@ -96,7 +104,8 @@
         "dep_code": "19",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "19272",
-        "com_name": "Tulle"
+        "com_name": "Tulle",
+        "population": 14836
     },
     {
         "geo_point_2d": [
@@ -107,7 +116,8 @@
         "dep_code": "29",
         "reg_name": "Bretagne",
         "com_code": "29151",
-        "com_name": "Morlaix"
+        "com_name": "Morlaix",
+        "population": 14559
     },
     {
         "geo_point_2d": [
@@ -118,7 +128,8 @@
         "dep_code": "70",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "70550",
-        "com_name": "Vesoul"
+        "com_name": "Vesoul",
+        "population": 14916
     },
     {
         "geo_point_2d": [
@@ -129,7 +140,8 @@
         "dep_code": "82",
         "reg_name": "Occitanie",
         "com_code": "82121",
-        "com_name": "Montauban"
+        "com_name": "Montauban",
+        "population": 60810
     },
     {
         "geo_point_2d": [
@@ -140,7 +152,8 @@
         "dep_code": "77",
         "reg_name": "Île-de-France",
         "com_code": "77186",
-        "com_name": "Fontainebleau"
+        "com_name": "Fontainebleau",
+        "population": 14886
     },
     {
         "geo_point_2d": [
@@ -151,7 +164,8 @@
         "dep_code": "08",
         "reg_name": "Grand Est",
         "com_code": "08409",
-        "com_name": "Sedan"
+        "com_name": "Sedan",
+        "population": 16428
     },
     {
         "geo_point_2d": [
@@ -162,7 +176,8 @@
         "dep_code": "55",
         "reg_name": "Grand Est",
         "com_code": "55545",
-        "com_name": "Verdun"
+        "com_name": "Verdun",
+        "population": 17475
     },
     {
         "geo_point_2d": [
@@ -173,7 +188,8 @@
         "dep_code": "64",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "64260",
-        "com_name": "Hendaye"
+        "com_name": "Hendaye",
+        "population": 16484
     },
     {
         "geo_point_2d": [
@@ -184,7 +200,8 @@
         "dep_code": "17",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "17306",
-        "com_name": "Royan"
+        "com_name": "Royan",
+        "population": 18398
     },
     {
         "geo_point_2d": [
@@ -195,7 +212,8 @@
         "dep_code": "16",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "16102",
-        "com_name": "Cognac"
+        "com_name": "Cognac",
+        "population": 18825
     },
     {
         "geo_point_2d": [
@@ -206,7 +224,8 @@
         "dep_code": "62",
         "reg_name": "Hauts-de-France",
         "com_code": "62498",
-        "com_name": "Lens"
+        "com_name": "Lens",
+        "population": 31415
     },
     {
         "geo_point_2d": [
@@ -217,7 +236,8 @@
         "dep_code": "46",
         "reg_name": "Occitanie",
         "com_code": "46042",
-        "com_name": "Cahors"
+        "com_name": "Cahors",
+        "population": 19878
     },
     {
         "geo_point_2d": [
@@ -228,7 +248,8 @@
         "dep_code": "21",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "21054",
-        "com_name": "Beaune"
+        "com_name": "Beaune",
+        "population": 21031
     },
     {
         "geo_point_2d": [
@@ -239,7 +260,8 @@
         "dep_code": "71",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "71153",
-        "com_name": "Le Creusot"
+        "com_name": "Le Creusot",
+        "population": 21630
     },
     {
         "geo_point_2d": [
@@ -250,7 +272,8 @@
         "dep_code": "12",
         "reg_name": "Occitanie",
         "com_code": "12145",
-        "com_name": "Millau"
+        "com_name": "Millau",
+        "population": 22109
     },
     {
         "geo_point_2d": [
@@ -261,7 +284,8 @@
         "dep_code": "32",
         "reg_name": "Occitanie",
         "com_code": "32013",
-        "com_name": "Auch"
+        "com_name": "Auch",
+        "population": 21935
     },
     {
         "geo_point_2d": [
@@ -272,7 +296,8 @@
         "dep_code": "17",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "17299",
-        "com_name": "Rochefort"
+        "com_name": "Rochefort",
+        "population": 24151
     },
     {
         "geo_point_2d": [
@@ -283,7 +308,8 @@
         "dep_code": "39",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "39198",
-        "com_name": "Dole"
+        "com_name": "Dole",
+        "population": 23708
     },
     {
         "geo_point_2d": [
@@ -294,7 +320,8 @@
         "dep_code": "85",
         "reg_name": "Pays de la Loire",
         "com_code": "85191",
-        "com_name": "La Roche-sur-Yon"
+        "com_name": "La Roche-sur-Yon",
+        "population": 54372
     },
     {
         "geo_point_2d": [
@@ -305,7 +332,8 @@
         "dep_code": "12",
         "reg_name": "Occitanie",
         "com_code": "12202",
-        "com_name": "Rodez"
+        "com_name": "Rodez",
+        "population": 24057
     },
     {
         "geo_point_2d": [
@@ -316,7 +344,8 @@
         "dep_code": "03",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "03310",
-        "com_name": "Vichy"
+        "com_name": "Vichy",
+        "population": 24166
     },
     {
         "geo_point_2d": [
@@ -327,7 +356,8 @@
         "dep_code": "15",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "15014",
-        "com_name": "Aurillac"
+        "com_name": "Aurillac",
+        "population": 25499
     },
     {
         "geo_point_2d": [
@@ -338,7 +368,8 @@
         "dep_code": "40",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "40192",
-        "com_name": "Mont-de-Marsan"
+        "com_name": "Mont-de-Marsan",
+        "population": 29554
     },
     {
         "geo_point_2d": [
@@ -349,7 +380,8 @@
         "dep_code": "61",
         "reg_name": "Normandie",
         "com_code": "61001",
-        "com_name": "Alençon"
+        "com_name": "Alençon",
+        "population": 25848
     },
     {
         "geo_point_2d": [
@@ -360,7 +392,8 @@
         "dep_code": "49",
         "reg_name": "Pays de la Loire",
         "com_code": "49328",
-        "com_name": "Saumur"
+        "com_name": "Saumur",
+        "population": 26734
     },
     {
         "geo_point_2d": [
@@ -371,7 +404,8 @@
         "dep_code": "89",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "89387",
-        "com_name": "Sens"
+        "com_name": "Sens",
+        "population": 25935
     },
     {
         "geo_point_2d": [
@@ -382,7 +416,8 @@
         "dep_code": "24",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "24037",
-        "com_name": "Bergerac"
+        "com_name": "Bergerac",
+        "population": 26833
     },
     {
         "geo_point_2d": [
@@ -393,7 +428,8 @@
         "dep_code": "PF",
         "reg_name": "Polynésie française",
         "com_code": "98735",
-        "com_name": "Papeete"
+        "com_name": "Papeete",
+        "population": 26926
     },
     {
         "geo_point_2d": [
@@ -404,7 +440,8 @@
         "dep_code": "76",
         "reg_name": "Normandie",
         "com_code": "76217",
-        "com_name": "Dieppe"
+        "com_name": "Dieppe",
+        "population": 29080
     },
     {
         "geo_point_2d": [
@@ -415,7 +452,8 @@
         "dep_code": "84",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "84087",
-        "com_name": "Orange"
+        "com_name": "Orange",
+        "population": 28919
     },
     {
         "geo_point_2d": [
@@ -426,7 +464,8 @@
         "dep_code": "45",
         "reg_name": "Centre-Val de Loire",
         "com_code": "45208",
-        "com_name": "Montargis"
+        "com_name": "Montargis",
+        "population": 14643
     },
     {
         "geo_point_2d": [
@@ -437,7 +476,8 @@
         "dep_code": "24",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "24322",
-        "com_name": "Périgueux"
+        "com_name": "Périgueux",
+        "population": 29966
     },
     {
         "geo_point_2d": [
@@ -448,7 +488,8 @@
         "dep_code": "38",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "38544",
-        "com_name": "Vienne"
+        "com_name": "Vienne",
+        "population": 29306
     },
     {
         "geo_point_2d": [
@@ -459,7 +500,8 @@
         "dep_code": "28",
         "reg_name": "Centre-Val de Loire",
         "com_code": "28134",
-        "com_name": "Dreux"
+        "com_name": "Dreux",
+        "population": 31044
     },
     {
         "geo_point_2d": [
@@ -470,7 +512,8 @@
         "dep_code": "43",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "43157",
-        "com_name": "Le Puy-en-Velay"
+        "com_name": "Le Puy-en-Velay",
+        "population": 18995
     },
     {
         "geo_point_2d": [
@@ -481,7 +524,8 @@
         "dep_code": "88",
         "reg_name": "Grand Est",
         "com_code": "88160",
-        "com_name": "Épinal"
+        "com_name": "Épinal",
+        "population": 31740
     },
     {
         "geo_point_2d": [
@@ -492,7 +536,8 @@
         "dep_code": "47",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "47001",
-        "com_name": "Agen"
+        "com_name": "Agen",
+        "population": 33576
     },
     {
         "geo_point_2d": [
@@ -503,7 +548,8 @@
         "dep_code": "58",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "58194",
-        "com_name": "Nevers"
+        "com_name": "Nevers",
+        "population": 32990
     },
     {
         "geo_point_2d": [
@@ -514,7 +560,8 @@
         "dep_code": "42",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "42187",
-        "com_name": "Roanne"
+        "com_name": "Roanne",
+        "population": 34366
     },
     {
         "geo_point_2d": [
@@ -525,7 +572,8 @@
         "dep_code": "71",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "71270",
-        "com_name": "Mâcon"
+        "com_name": "Mâcon",
+        "population": 33638
     },
     {
         "geo_point_2d": [
@@ -536,7 +584,8 @@
         "dep_code": "89",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "89024",
-        "com_name": "Auxerre"
+        "com_name": "Auxerre",
+        "population": 34634
     },
     {
         "geo_point_2d": [
@@ -547,7 +596,8 @@
         "dep_code": "67",
         "reg_name": "Grand Est",
         "com_code": "67180",
-        "com_name": "Haguenau"
+        "com_name": "Haguenau",
+        "population": 34504
     },
     {
         "geo_point_2d": [
@@ -558,7 +608,8 @@
         "dep_code": "28",
         "reg_name": "Centre-Val de Loire",
         "com_code": "28085",
-        "com_name": "Chartres"
+        "com_name": "Chartres",
+        "population": 38578
     },
     {
         "geo_point_2d": [
@@ -569,7 +620,8 @@
         "dep_code": "83",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "83050",
-        "com_name": "Draguignan"
+        "com_name": "Draguignan",
+        "population": 39340
     },
     {
         "geo_point_2d": [
@@ -580,7 +632,8 @@
         "dep_code": "59",
         "reg_name": "Hauts-de-France",
         "com_code": "59178",
-        "com_name": "Douai"
+        "com_name": "Douai",
+        "population": 39700
     },
     {
         "geo_point_2d": [
@@ -591,7 +644,8 @@
         "dep_code": "26",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "26198",
-        "com_name": "Montélimar"
+        "com_name": "Montélimar",
+        "population": 39097
     },
     {
         "geo_point_2d": [
@@ -602,7 +656,8 @@
         "dep_code": "05",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "05061",
-        "com_name": "Gap"
+        "com_name": "Gap",
+        "population": 40895
     },
     {
         "geo_point_2d": [
@@ -613,7 +668,8 @@
         "dep_code": "57",
         "reg_name": "Grand Est",
         "com_code": "57672",
-        "com_name": "Thionville"
+        "com_name": "Thionville",
+        "population": 40701
     },
     {
         "geo_point_2d": [
@@ -624,7 +680,8 @@
         "dep_code": "01",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "01053",
-        "com_name": "Bourg-en-Bresse"
+        "com_name": "Bourg-en-Bresse",
+        "population": 41527
     },
     {
         "geo_point_2d": [
@@ -635,7 +692,8 @@
         "dep_code": "16",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "16015",
-        "com_name": "Angoulême"
+        "com_name": "Angoulême",
+        "population": 41740
     },
     {
         "geo_point_2d": [
@@ -646,7 +704,8 @@
         "dep_code": "62",
         "reg_name": "Hauts-de-France",
         "com_code": "62041",
-        "com_name": "Arras"
+        "com_name": "Arras",
+        "population": 41019
     },
     {
         "geo_point_2d": [
@@ -657,7 +716,8 @@
         "dep_code": "30",
         "reg_name": "Occitanie",
         "com_code": "30007",
-        "com_name": "Alès"
+        "com_name": "Alès",
+        "population": 40219
     },
     {
         "geo_point_2d": [
@@ -668,7 +728,8 @@
         "dep_code": "65",
         "reg_name": "Occitanie",
         "com_code": "65440",
-        "com_name": "Tarbes"
+        "com_name": "Tarbes",
+        "population": 41518
     },
     {
         "geo_point_2d": [
@@ -679,7 +740,8 @@
         "dep_code": "81",
         "reg_name": "Occitanie",
         "com_code": "81065",
-        "com_name": "Castres"
+        "com_name": "Castres",
+        "population": 41636
     },
     {
         "geo_point_2d": [
@@ -690,7 +752,8 @@
         "dep_code": "36",
         "reg_name": "Centre-Val de Loire",
         "com_code": "36044",
-        "com_name": "Châteauroux"
+        "com_name": "Châteauroux",
+        "population": 43741
     },
     {
         "geo_point_2d": [
@@ -701,7 +764,8 @@
         "dep_code": "59",
         "reg_name": "Hauts-de-France",
         "com_code": "59606",
-        "com_name": "Valenciennes"
+        "com_name": "Valenciennes",
+        "population": 43336
     },
     {
         "geo_point_2d": [
@@ -712,7 +776,8 @@
         "dep_code": "34",
         "reg_name": "Occitanie",
         "com_code": "34301",
-        "com_name": "Sète"
+        "com_name": "Sète",
+        "population": 43229
     },
     {
         "geo_point_2d": [
@@ -723,7 +788,8 @@
         "dep_code": "22",
         "reg_name": "Bretagne",
         "com_code": "22278",
-        "com_name": "Saint-Brieuc"
+        "com_name": "Saint-Brieuc",
+        "population": 44372
     },
     {
         "geo_point_2d": [
@@ -734,7 +800,8 @@
         "dep_code": "85",
         "reg_name": "Pays de la Loire",
         "com_code": "85194",
-        "com_name": "Les Sables-d'Olonne"
+        "com_name": "Les Sables-d'Olonne",
+        "population": 44017
     },
     {
         "geo_point_2d": [
@@ -745,7 +812,8 @@
         "dep_code": "71",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "71076",
-        "com_name": "Chalon-sur-Saône"
+        "com_name": "Chalon-sur-Saône",
+        "population": 45096
     },
     {
         "geo_point_2d": [
@@ -756,7 +824,8 @@
         "dep_code": "41",
         "reg_name": "Centre-Val de Loire",
         "com_code": "41018",
-        "com_name": "Blois"
+        "com_name": "Blois",
+        "population": 46086
     },
     {
         "geo_point_2d": [
@@ -767,7 +836,8 @@
         "dep_code": "19",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "19031",
-        "com_name": "Brive-la-Gaillarde"
+        "com_name": "Brive-la-Gaillarde",
+        "population": 46916
     },
     {
         "geo_point_2d": [
@@ -778,7 +848,8 @@
         "dep_code": "27",
         "reg_name": "Normandie",
         "com_code": "27229",
-        "com_name": "Évreux"
+        "com_name": "Évreux",
+        "population": 47733
     },
     {
         "geo_point_2d": [
@@ -789,7 +860,8 @@
         "dep_code": "08",
         "reg_name": "Grand Est",
         "com_code": "08105",
-        "com_name": "Charleville-Mézières"
+        "com_name": "Charleville-Mézières",
+        "population": 46428
     },
     {
         "geo_point_2d": [
@@ -800,7 +872,8 @@
         "dep_code": "90",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "90010",
-        "com_name": "Belfort"
+        "com_name": "Belfort",
+        "population": 47656
     },
     {
         "geo_point_2d": [
@@ -811,7 +884,8 @@
         "dep_code": "35",
         "reg_name": "Bretagne",
         "com_code": "35288",
-        "com_name": "Saint-Malo"
+        "com_name": "Saint-Malo",
+        "population": 46097
     },
     {
         "geo_point_2d": [
@@ -822,7 +896,8 @@
         "dep_code": "11",
         "reg_name": "Occitanie",
         "com_code": "11069",
-        "com_name": "Carcassonne"
+        "com_name": "Carcassonne",
+        "population": 46031
     },
     {
         "geo_point_2d": [
@@ -833,7 +908,8 @@
         "dep_code": "2B",
         "reg_name": "Corse",
         "com_code": "2B033",
-        "com_name": "Bastia"
+        "com_name": "Bastia",
+        "population": 45715
     },
     {
         "geo_point_2d": [
@@ -844,7 +920,8 @@
         "dep_code": "06",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "06069",
-        "com_name": "Grasse"
+        "com_name": "Grasse",
+        "population": 50396
     },
     {
         "geo_point_2d": [
@@ -855,7 +932,8 @@
         "dep_code": "81",
         "reg_name": "Occitanie",
         "com_code": "81004",
-        "com_name": "Albi"
+        "com_name": "Albi",
+        "population": 48970
     },
     {
         "geo_point_2d": [
@@ -866,7 +944,8 @@
         "dep_code": "53",
         "reg_name": "Pays de la Loire",
         "com_code": "53130",
-        "com_name": "Laval"
+        "com_name": "Laval",
+        "population": 49728
     },
     {
         "geo_point_2d": [
@@ -877,7 +956,8 @@
         "dep_code": "13",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "13004",
-        "com_name": "Arles"
+        "com_name": "Arles",
+        "population": 52548
     },
     {
         "geo_point_2d": [
@@ -888,7 +968,8 @@
         "dep_code": "64",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "64102",
-        "com_name": "Bayonne"
+        "com_name": "Bayonne",
+        "population": 51228
     },
     {
         "geo_point_2d": [
@@ -899,7 +980,8 @@
         "dep_code": "971",
         "reg_name": "Guadeloupe",
         "com_code": "97101",
-        "com_name": "Les Abymes"
+        "com_name": "Les Abymes",
+        "population": 53491
     },
     {
         "geo_point_2d": [
@@ -910,7 +992,8 @@
         "dep_code": "02",
         "reg_name": "Hauts-de-France",
         "com_code": "02691",
-        "com_name": "Saint-Quentin"
+        "com_name": "Saint-Quentin",
+        "population": 53816
     },
     {
         "geo_point_2d": [
@@ -921,7 +1004,8 @@
         "dep_code": "56",
         "reg_name": "Bretagne",
         "com_code": "56260",
-        "com_name": "Vannes"
+        "com_name": "Vannes",
+        "population": 53352
     },
     {
         "geo_point_2d": [
@@ -932,7 +1016,8 @@
         "dep_code": "49",
         "reg_name": "Pays de la Loire",
         "com_code": "49099",
-        "com_name": "Cholet"
+        "com_name": "Cholet",
+        "population": 53917
     },
     {
         "geo_point_2d": [
@@ -943,7 +1028,8 @@
         "dep_code": "02",
         "reg_name": "Hauts-de-France",
         "com_code": "02408",
-        "com_name": "Laon"
+        "com_name": "Laon",
+        "population": 24876
     },
     {
         "geo_point_2d": [
@@ -954,7 +1040,8 @@
         "dep_code": "11",
         "reg_name": "Occitanie",
         "com_code": "11262",
-        "com_name": "Narbonne"
+        "com_name": "Narbonne",
+        "population": 54700
     },
     {
         "geo_point_2d": [
@@ -965,7 +1052,8 @@
         "dep_code": "60",
         "reg_name": "Hauts-de-France",
         "com_code": "60057",
-        "com_name": "Beauvais"
+        "com_name": "Beauvais",
+        "population": 56254
     },
     {
         "geo_point_2d": [
@@ -976,7 +1064,8 @@
         "dep_code": "56",
         "reg_name": "Bretagne",
         "com_code": "56121",
-        "com_name": "Lorient"
+        "com_name": "Lorient",
+        "population": 57149
     },
     {
         "geo_point_2d": [
@@ -987,7 +1076,8 @@
         "dep_code": "73",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "73065",
-        "com_name": "Chambéry"
+        "com_name": "Chambéry",
+        "population": 58919
     },
     {
         "geo_point_2d": [
@@ -998,7 +1088,8 @@
         "dep_code": "79",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "79191",
-        "com_name": "Niort"
+        "com_name": "Niort",
+        "population": 58707
     },
     {
         "geo_point_2d": [
@@ -1009,7 +1100,8 @@
         "dep_code": "25",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "25388",
-        "com_name": "Montbéliard"
+        "com_name": "Montbéliard",
+        "population": 25395
     },
     {
         "geo_point_2d": [
@@ -1020,7 +1112,8 @@
         "dep_code": "10",
         "reg_name": "Grand Est",
         "com_code": "10387",
-        "com_name": "Troyes"
+        "com_name": "Troyes",
+        "population": 61652
     },
     {
         "geo_point_2d": [
@@ -1031,7 +1124,8 @@
         "dep_code": "29",
         "reg_name": "Bretagne",
         "com_code": "29232",
-        "com_name": "Quimper"
+        "com_name": "Quimper",
+        "population": 62985
     },
     {
         "geo_point_2d": [
@@ -1042,7 +1136,8 @@
         "dep_code": "18",
         "reg_name": "Centre-Val de Loire",
         "com_code": "18033",
-        "com_name": "Bourges"
+        "com_name": "Bourges",
+        "population": 64551
     },
     {
         "geo_point_2d": [
@@ -1053,7 +1148,8 @@
         "dep_code": "26",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "26362",
-        "com_name": "Valence"
+        "com_name": "Valence",
+        "population": 63714
     },
     {
         "geo_point_2d": [
@@ -1064,7 +1160,8 @@
         "dep_code": "973",
         "reg_name": "Guyane",
         "com_code": "97302",
-        "com_name": "Cayenne"
+        "com_name": "Cayenne",
+        "population": 61268
     },
     {
         "geo_point_2d": [
@@ -1075,7 +1172,8 @@
         "dep_code": "95",
         "reg_name": "Île-de-France",
         "com_code": "95127",
-        "com_name": "Cergy-Pontoise"
+        "com_name": "Cergy-Pontoise",
+        "population": 65177
     },
     {
         "geo_point_2d": [
@@ -1086,7 +1184,8 @@
         "dep_code": "68",
         "reg_name": "Grand Est",
         "com_code": "68066",
-        "com_name": "Colmar"
+        "com_name": "Colmar",
+        "population": 69105
     },
     {
         "geo_point_2d": [
@@ -1097,7 +1196,8 @@
         "dep_code": "2A",
         "reg_name": "Corse",
         "com_code": "2A004",
-        "com_name": "Ajaccio"
+        "com_name": "Ajaccio",
+        "population": 70659
     },
     {
         "geo_point_2d": [
@@ -1108,7 +1208,8 @@
         "dep_code": "44",
         "reg_name": "Pays de la Loire",
         "com_code": "44184",
-        "com_name": "Saint-Nazaire"
+        "com_name": "Saint-Nazaire",
+        "population": 69993
     },
     {
         "geo_point_2d": [
@@ -1119,7 +1220,8 @@
         "dep_code": "62",
         "reg_name": "Hauts-de-France",
         "com_code": "62193",
-        "com_name": "Calais"
+        "com_name": "Calais",
+        "population": 73911
     },
     {
         "geo_point_2d": [
@@ -1130,7 +1232,8 @@
         "dep_code": "06",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "06029",
-        "com_name": "Cannes"
+        "com_name": "Cannes",
+        "population": 73868
     },
     {
         "geo_point_2d": [
@@ -1141,7 +1244,8 @@
         "dep_code": "64",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "64445",
-        "com_name": "Pau"
+        "com_name": "Pau",
+        "population": 77130
     },
     {
         "geo_point_2d": [
@@ -1152,7 +1256,8 @@
         "dep_code": "972",
         "reg_name": "Martinique",
         "com_code": "97209",
-        "com_name": "Fort-de-France"
+        "com_name": "Fort-de-France",
+        "population": 80041
     },
     {
         "geo_point_2d": [
@@ -1163,7 +1268,8 @@
         "dep_code": "17",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "17300",
-        "com_name": "La Rochelle"
+        "com_name": "La Rochelle",
+        "population": 75735
     },
     {
         "geo_point_2d": [
@@ -1174,7 +1280,8 @@
         "dep_code": "34",
         "reg_name": "Occitanie",
         "com_code": "34032",
-        "com_name": "Béziers"
+        "com_name": "Béziers",
+        "population": 77177
     },
     {
         "geo_point_2d": [
@@ -1185,7 +1292,8 @@
         "dep_code": "50",
         "reg_name": "Normandie",
         "com_code": "50129",
-        "com_name": "Cherbourg-en-Cotentin"
+        "com_name": "Cherbourg-en-Cotentin",
+        "population": 79200
     },
     {
         "geo_point_2d": [
@@ -1196,7 +1304,8 @@
         "dep_code": "78",
         "reg_name": "Île-de-France",
         "com_code": "78646",
-        "com_name": "Versailles"
+        "com_name": "Versailles",
+        "population": 85862
     },
     {
         "geo_point_2d": [
@@ -1207,7 +1316,8 @@
         "dep_code": "975",
         "reg_name": "Saint-Pierre-et-Miquelon",
         "com_code": "97416",
-        "com_name": "Saint-Pierre"
+        "com_name": "Saint-Pierre",
+        "population": 84212
     },
     {
         "geo_point_2d": [
@@ -1218,7 +1328,8 @@
         "dep_code": "59",
         "reg_name": "Hauts-de-France",
         "com_code": "59183",
-        "com_name": "Dunkerque"
+        "com_name": "Dunkerque",
+        "population": 87353
     },
     {
         "geo_point_2d": [
@@ -1229,7 +1340,8 @@
         "dep_code": "86",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "86194",
-        "com_name": "Poitiers"
+        "com_name": "Poitiers",
+        "population": 88291
     },
     {
         "geo_point_2d": [
@@ -1240,7 +1352,8 @@
         "dep_code": "84",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "84007",
-        "com_name": "Avignon"
+        "com_name": "Avignon",
+        "population": 91921
     },
     {
         "geo_point_2d": [
@@ -1251,7 +1364,8 @@
         "dep_code": "988",
         "reg_name": "Nouvelle-Calédonie",
         "com_code": "98818",
-        "com_name": "Nouméa"
+        "com_name": "Nouméa",
+        "population": 94285
     },
     {
         "geo_point_2d": [
@@ -1262,7 +1376,8 @@
         "dep_code": "54",
         "reg_name": "Grand Est",
         "com_code": "54395",
-        "com_name": "Nancy"
+        "com_name": "Nancy",
+        "population": 104286
     },
     {
         "geo_point_2d": [
@@ -1273,7 +1388,8 @@
         "dep_code": "14",
         "reg_name": "Normandie",
         "com_code": "14118",
-        "com_name": "Caen"
+        "com_name": "Caen",
+        "population": 105354
     },
     {
         "geo_point_2d": [
@@ -1284,7 +1400,8 @@
         "dep_code": "68",
         "reg_name": "Grand Est",
         "com_code": "68224",
-        "com_name": "Mulhouse"
+        "com_name": "Mulhouse",
+        "population": 109443
     },
     {
         "geo_point_2d": [
@@ -1295,7 +1412,8 @@
         "dep_code": "76",
         "reg_name": "Normandie",
         "com_code": "76540",
-        "com_name": "Rouen"
+        "com_name": "Rouen",
+        "population": 110145
     },
     {
         "geo_point_2d": [
@@ -1306,7 +1424,8 @@
         "dep_code": "45",
         "reg_name": "Centre-Val de Loire",
         "com_code": "45234",
-        "com_name": "Orléans"
+        "com_name": "Orléans",
+        "population": 116685
     },
     {
         "geo_point_2d": [
@@ -1317,7 +1436,8 @@
         "dep_code": "25",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "25056",
-        "com_name": "Besançon"
+        "com_name": "Besançon",
+        "population": 115934
     },
     {
         "geo_point_2d": [
@@ -1328,7 +1448,8 @@
         "dep_code": "57",
         "reg_name": "Grand Est",
         "com_code": "57463",
-        "com_name": "Metz"
+        "com_name": "Metz",
+        "population": 116429
     },
     {
         "geo_point_2d": [
@@ -1339,7 +1460,8 @@
         "dep_code": "66",
         "reg_name": "Occitanie",
         "com_code": "66136",
-        "com_name": "Perpignan"
+        "com_name": "Perpignan",
+        "population": 120158
     },
     {
         "geo_point_2d": [
@@ -1350,7 +1472,8 @@
         "dep_code": "74",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "74010",
-        "com_name": "Annecy"
+        "com_name": "Annecy",
+        "population": 126924
     },
     {
         "geo_point_2d": [
@@ -1361,7 +1484,8 @@
         "dep_code": "87",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "87085",
-        "com_name": "Limoges"
+        "com_name": "Limoges",
+        "population": 132175
     },
     {
         "geo_point_2d": [
@@ -1372,7 +1496,8 @@
         "dep_code": "80",
         "reg_name": "Hauts-de-France",
         "com_code": "80021",
-        "com_name": "Amiens"
+        "com_name": "Amiens",
+        "population": 134057
     },
     {
         "geo_point_2d": [
@@ -1383,7 +1508,8 @@
         "dep_code": "37",
         "reg_name": "Centre-Val de Loire",
         "com_code": "37261",
-        "com_name": "Tours"
+        "com_name": "Tours",
+        "population": 135787
     },
     {
         "geo_point_2d": [
@@ -1394,7 +1520,8 @@
         "dep_code": "29",
         "reg_name": "Bretagne",
         "com_code": "29019",
-        "com_name": "Brest"
+        "com_name": "Brest",
+        "population": 140064
     },
     {
         "geo_point_2d": [
@@ -1405,7 +1532,8 @@
         "dep_code": "72",
         "reg_name": "Pays de la Loire",
         "com_code": "72181",
-        "com_name": "Le Mans"
+        "com_name": "Le Mans",
+        "population": 142946
     },
     {
         "geo_point_2d": [
@@ -1416,7 +1544,8 @@
         "dep_code": "13",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "13001",
-        "com_name": "Aix-en-Provence"
+        "com_name": "Aix-en-Provence",
+        "population": 142482
     },
     {
         "geo_point_2d": [
@@ -1427,7 +1556,8 @@
         "dep_code": "63",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "63113",
-        "com_name": "Clermont-Ferrand"
+        "com_name": "Clermont-Ferrand",
+        "population": 143886
     },
     {
         "geo_point_2d": [
@@ -1438,7 +1568,8 @@
         "dep_code": "30",
         "reg_name": "Occitanie",
         "com_code": "30189",
-        "com_name": "Nîmes"
+        "com_name": "Nîmes",
+        "population": 150610
     },
     {
         "geo_point_2d": [
@@ -1449,7 +1580,8 @@
         "dep_code": "974",
         "reg_name": "La Réunion",
         "com_code": "97411",
-        "com_name": "Saint-Denis"
+        "com_name": "Saint-Denis",
+        "population": 147931
     },
     {
         "geo_point_2d": [
@@ -1460,7 +1592,8 @@
         "dep_code": "49",
         "reg_name": "Pays de la Loire",
         "com_code": "49007",
-        "com_name": "Angers"
+        "com_name": "Angers",
+        "population": 152960
     },
     {
         "geo_point_2d": [
@@ -1471,7 +1604,8 @@
         "dep_code": "21",
         "reg_name": "Bourgogne-Franche-Comté",
         "com_code": "21231",
-        "com_name": "Dijon"
+        "com_name": "Dijon",
+        "population": 156920
     },
     {
         "geo_point_2d": [
@@ -1482,7 +1616,8 @@
         "dep_code": "38",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "38185",
-        "com_name": "Grenoble"
+        "com_name": "Grenoble",
+        "population": 158454
     },
     {
         "geo_point_2d": [
@@ -1493,7 +1628,8 @@
         "dep_code": "76",
         "reg_name": "Normandie",
         "com_code": "76351",
-        "com_name": "Le Havre"
+        "com_name": "Le Havre",
+        "population": 170147
     },
     {
         "geo_point_2d": [
@@ -1504,7 +1640,8 @@
         "dep_code": "42",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "42218",
-        "com_name": "Saint-Étienne"
+        "com_name": "Saint-Étienne",
+        "population": 172565
     },
     {
         "geo_point_2d": [
@@ -1515,7 +1652,8 @@
         "dep_code": "83",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "83137",
-        "com_name": "Toulon"
+        "com_name": "Toulon",
+        "population": 171953
     },
     {
         "geo_point_2d": [
@@ -1526,7 +1664,8 @@
         "dep_code": "51",
         "reg_name": "Grand Est",
         "com_code": "51454",
-        "com_name": "Reims"
+        "com_name": "Reims",
+        "population": 182460
     },
     {
         "geo_point_2d": [
@@ -1537,7 +1676,8 @@
         "dep_code": "35",
         "reg_name": "Bretagne",
         "com_code": "35238",
-        "com_name": "Rennes"
+        "com_name": "Rennes",
+        "population": 216815
     },
     {
         "geo_point_2d": [
@@ -1548,7 +1688,8 @@
         "dep_code": "59",
         "reg_name": "Hauts-de-France",
         "com_code": "59350",
-        "com_name": "Lille"
+        "com_name": "Lille",
+        "population": 232787
     },
     {
         "geo_point_2d": [
@@ -1559,7 +1700,8 @@
         "dep_code": "33",
         "reg_name": "Nouvelle-Aquitaine",
         "com_code": "33063",
-        "com_name": "Bordeaux"
+        "com_name": "Bordeaux",
+        "population": 254436
     },
     {
         "geo_point_2d": [
@@ -1570,7 +1712,8 @@
         "dep_code": "67",
         "reg_name": "Grand Est",
         "com_code": "67482",
-        "com_name": "Strasbourg"
+        "com_name": "Strasbourg",
+        "population": 280966
     },
     {
         "geo_point_2d": [
@@ -1581,7 +1724,8 @@
         "dep_code": "34",
         "reg_name": "Occitanie",
         "com_code": "34172",
-        "com_name": "Montpellier"
+        "com_name": "Montpellier",
+        "population": 285121
     },
     {
         "geo_point_2d": [
@@ -1592,7 +1736,8 @@
         "dep_code": "44",
         "reg_name": "Pays de la Loire",
         "com_code": "44109",
-        "com_name": "Nantes"
+        "com_name": "Nantes",
+        "population": 309346
     },
     {
         "geo_point_2d": [
@@ -1603,7 +1748,8 @@
         "dep_code": "31",
         "reg_name": "Occitanie",
         "com_code": "31555",
-        "com_name": "Toulouse"
+        "com_name": "Toulouse",
+        "population": 479553
     },
     {
         "geo_point_2d": [
@@ -1614,7 +1760,8 @@
         "dep_code": "69",
         "reg_name": "Auvergne-Rhône-Alpes",
         "com_code": "69123",
-        "com_name": "Lyon"
+        "com_name": "Lyon",
+        "population": 513275
     },
     {
         "geo_point_2d": [
@@ -1625,7 +1772,8 @@
         "dep_code": "06",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "06088",
-        "com_name": "Nice"
+        "com_name": "Nice",
+        "population": 340017
     },
     {
         "geo_point_2d": [
@@ -1636,7 +1784,8 @@
         "dep_code": "13",
         "reg_name": "Provence-Alpes-Côte d'Azur",
         "com_code": "13055",
-        "com_name": "Marseille"
+        "com_name": "Marseille",
+        "population": 861635
     },
     {
         "geo_point_2d": [
@@ -1647,6 +1796,7 @@
         "dep_code": "75",
         "reg_name": "Île-de-France",
         "com_code": "75056",
-        "com_name": "Paris"
+        "com_name": "Paris",
+        "population": 2161000
     }
 ]

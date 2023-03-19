@@ -24,50 +24,60 @@
 const fs = require("fs");
 const path = require("path");
 
-const geojson = require("../public/p-com2020.json");
+// const geojson = require("../public/p-com2020.json");
 const towns = require("../public/towns.ARCHIVE.json");
 
+let csvPopulation = fs.readFileSync(path.join(__dirname, "../public/Communes.csv"), "utf8");
+csvPopulation = csvPopulation.split("\n");
+csvPopulation = csvPopulation.map((line) => line.split(";"));
+
 const townsBis = towns.map((town) => {
-	const townGeojson = geojson.features.find(
-		(feature) => feature.properties.codgeo === town.com_code
-	);
-	if (!townGeojson) {
-		console.log("town not found", town.com_code);
-		return town;
-	}
+	// const townGeojson = geojson.features.find(
+	// 	(feature) => feature.properties.codgeo === town.com_code
+	// );
+	// if (!townGeojson) {
+	// 	console.log("town not found", town.com_code);
+	// 	return town;
+	// }
 	// warn if the distance between the two coordinates is too big
-	if (
-		Math.abs(town.geo_point_2d[1] - townGeojson.properties.xcl4326) > 0.1 ||
-		Math.abs(town.geo_point_2d[0] - townGeojson.properties.ycl4326) > 0.15
-	) {
-		console.log("town coordinates are too different", town.com_name, town.com_code);
-		console.log("old", town.geo_point_2d);
-		console.log("new", [townGeojson.properties.ycl4326, townGeojson.properties.xcl4326]);
-		return town;
-	}
+	// if (
+	// 	Math.abs(town.geo_point_2d[1] - townGeojson.properties.xcl4326) > 0.1 ||
+	// 	Math.abs(town.geo_point_2d[0] - townGeojson.properties.ycl4326) > 0.15
+	// ) {
+	// 	console.log("town coordinates are too different", town.com_name, town.com_code);
+	// 	console.log("old", town.geo_point_2d);
+	// 	console.log("new", [townGeojson.properties.ycl4326, townGeojson.properties.xcl4326]);
+	// 	return town;
+	// }
 
 	// Check in ../public/towns/ if there is a geojson file with the same name as the town
 	// If there is not, create it by calling getTownOutlineUpstream, the name looks like "Castres.json"
-	const townGeojsonPath = "../public/towns/" + town.com_name + ".json";
-	if (fs.existsSync(townGeojsonPath)) {
-	} else {
-		console.log("town geojson does not exist", town.com_name);
-		getTownOutlineUpstream(town.com_code).then((geojson) => {
-			if (geojson) {
-				console.log("town found upstream", town.com_name);
-				fs.writeFileSync(
-					townGeojsonPath,
-					JSON.stringify({ type: "FeatureCollection", features: [geojson] })
-				);
-			} else {
-				console.log("-----------------------town not found upstream", town.com_name);
-			}
-		});
-	}
+	// const townGeojsonPath = "../public/towns/" + town.com_name + ".json";
+	// if (fs.existsSync(townGeojsonPath)) {
+	// } else {
+	// 	console.log("town geojson does not exist", town.com_name);
+	// 	getTownOutlineUpstream(town.com_code).then((geojson) => {
+	// 		if (geojson) {
+	// 			console.log("town found upstream", town.com_name);
+	// 			fs.writeFileSync(
+	// 				townGeojsonPath,
+	// 				JSON.stringify({ type: "FeatureCollection", features: [geojson] })
+	// 			);
+	// 		} else {
+	// 			console.log("-----------------------town not found upstream", town.com_name);
+	// 		}
+	// 	});
+	// }
+
+	// Load population data from ../public/Communes.csv
+	// Match the town with the code in the csv file (first column)
+	// Then replace the population with the population in the csv file (third column)
+	let population = csvPopulation.find((line) => line[0] === town.com_code)?.[2];
 
 	return {
 		...town,
-		geo_point_2d: [townGeojson.properties.ycl4326, townGeojson.properties.xcl4326],
+		population,
+		// geo_point_2d: [townGeojson.properties.ycl4326, townGeojson.properties.xcl4326],
 	};
 });
 

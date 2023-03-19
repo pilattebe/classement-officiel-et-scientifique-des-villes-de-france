@@ -62,5 +62,6 @@ export const townMetadata = z.object({
 	reg_name: z.string(),
 	com_code: z.string(),
 	com_name: z.string(),
+	population: z.number(),
 });
 export type TownMetadata = z.infer<typeof townMetadata>;
