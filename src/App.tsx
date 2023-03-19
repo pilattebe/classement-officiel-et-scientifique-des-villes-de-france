@@ -403,17 +403,34 @@ async function fetchFeatures() {
 			if (!score) {
 				throw new Error(`No score found for ${town.com_name}`);
 			}
-			const outline = setOutlineFeature(town, score);
-			const point = setPointFeature(town, score);
-			const text = setTextFeature(town, score);
-			const colors = getColors(score.total);
+			const outlinePromise = setOutlineFeature(town, score);
+			const pointPromise = setPointFeature(town, score);
+			const textPromise = setTextFeature(town, score);
+
+			const outline = await outlinePromise;
+			const point = await pointPromise;
+			const text = await textPromise;
+
+			// // check if the point is in the outline
+			// if (
+			// 	outline.some((feature) => {
+			// 		const geometry = feature.getGeometry();
+			// 		if (!geometry) return false;
+			// 		return geometry.intersectsCoordinate(point.getGeometry()!.getCoordinates());
+			// 	})
+			// ) {
+			// 	//
+			// } else {
+			// 	console.error(town.com_name, "is not in the outline");
+			// }
+
 			godObject.set(town.com_name, {
 				metadata: town,
 				score: score,
 				outline: await outline,
 				point: await point,
 				text: await text,
-				colors: colors,
+				colors: getColors(score.total),
 			});
 		})
 	);
@@ -464,7 +481,13 @@ async function setTextFeature(town: TownMetadata, score: TownScore) {
 
 async function setOutlineFeature(town: TownMetadata, score: TownScore) {
 	const response = await fetch(`/towns/${encodeURIComponent(town.com_name)}.json`);
-	const features = GeoJsonParser.readFeatures(await response.json());
+	let features: Feature<Geometry>[];
+	try {
+		features = GeoJsonParser.readFeatures(await response.json());
+	} catch (e) {
+		console.warn("No outline found for " + town.com_name);
+		return [];
+	}
 
 	const colors = getColors(score.total);
 
@@ -478,7 +501,6 @@ async function setOutlineFeature(town: TownMetadata, score: TownScore) {
 		);
 	});
 
-	if (!features.length) console.warn("No outline found for " + town.com_name);
 	outlineFeatures.extend(features);
 	return features;
 }
