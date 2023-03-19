@@ -237,14 +237,14 @@ function SearchBar() {
 	);
 }
 
-function setSearchBar(str: string) {
+function setSearchBar(str: string, disableAnimation = false) {
 	setSearchBarValue(str);
 	if (!str) {
 		setMatchingTowns(Array.from(godObject.values()));
 	} else {
 		setMatchingTowns(Array.from(filter(str)));
 	}
-	search(str);
+	search(str, disableAnimation);
 	(document.getElementById("searchBar") as HTMLInputElement).value = str;
 }
 
@@ -314,7 +314,7 @@ function* filter(text: string) {
 	}
 }
 
-async function search(e: string) {
+async function search(e: string, disableAnimation = false) {
 	setSearchBarValue(e);
 	if (!e || !godObject.has(e)) {
 		setCurrentTown(null);
@@ -337,6 +337,7 @@ async function search(e: string) {
 	);
 	if (point) selectedPoint.push(point);
 	setCurrentTown(town.metadata.com_name);
+	if (disableAnimation) return;
 	const padding = [50, 50 + 384, 50, 50];
 	const outView = new View();
 	let extent = town.point.getGeometry()!.getExtent();
@@ -419,7 +420,7 @@ function getSelect() {
 	const select = new Select({ multi: false, condition: click, style: null });
 	select.on("select", (e) => {
 		const go = askGod(e.selected[0]);
-		setSearchBar(go?.metadata.com_name ?? "");
+		setSearchBar(go?.metadata.com_name ?? "", true);
 	});
 
 	return select;
