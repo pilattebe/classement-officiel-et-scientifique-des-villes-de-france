@@ -4,4 +4,6 @@ Antoine Daniel est un streamer et lors de certains streams, il invite des viewer
 
 Je n'ai aucun lien avec Antoine Daniel. Ce projet est l'affichage des résultats sur une carte interractive.
 
+C'est mon premier projet qui utilise SolidJS donc vous savez à quoi vous attendre.
+
 J'accepte volontier des sponsors pour m'aider à me lancer dans les projets open-source.
