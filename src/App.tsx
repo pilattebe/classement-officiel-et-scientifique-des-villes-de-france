@@ -84,25 +84,25 @@ export default function App() {
 			)}
 			<div class="relative flex flex-1">
 				<div id="map" class="flex-1" />
-				<Show when={!currentTown()}>
+				{/* <Show when={!currentTown()}>
 					<div
 						class="absolute right-0 top-0 left-0 z-10 m-5 flex flex-col bg-amber-800 bg-transparent sm:left-auto sm:w-96"
 						id="sidebar"
 					>
 						<SearchBar />
 					</div>
-				</Show>
+				</Show> */}
 
-				<Show when={currentTown()}>
-					<div
-						class="absolute bottom-0 top-0 right-0 left-0 z-10 flex flex-col overflow-y-auto bg-amber-800 bg-opacity-50 p-5 backdrop-blur-sm sm:left-auto sm:w-[26.5rem]"
-						id="sidebar"
-					>
-						<SearchBar />
+				<div
+					class="pointer-events-none absolute right-0 top-0 left-0 bottom-0 z-10 m-5 flex flex-col bg-transparent sm:left-auto sm:w-96"
+					id="sidebar"
+				>
+					<SearchBar />
+					<Show when={currentTown()}>
 						<Stats />
-						{/* "bottom-0", "bg-opacity-50", "p-5", "backdrop-blur-sm" */}
-					</div>
-				</Show>
+					</Show>
+					{/* "bottom-0", "bg-opacity-50", "p-5", "backdrop-blur-sm" */}
+				</div>
 			</div>
 			<Footer />
 		</div>
@@ -123,13 +123,13 @@ function Stats() {
 	// The name is right aligned
 	// The value is left aligned
 	return (
-		<>
+		<div class="pointer-events-auto overflow-y-auto">
 			<img
 				src={t()?.score.imageUrl}
-				class=" mt-5 flex w-full rounded-lg border-2 border-amber-500 object-cover"
+				class=" mt-5 flex w-full rounded-lg border-2 border-amber-500  object-cover"
 			/>
 			{/* <div class="mt-5 flex h-fit w-full flex-shrink rounded-lg border-2 border-amber-500 object-cover"></div> */}
-			<div class="mt-5 grid grid-cols-2 gap-1 rounded-lg border-2 border-amber-500 bg-amber-700 p-5 text-xl  text-white">
+			<div class=" mt-5 grid grid-cols-2 gap-1 rounded-lg border-2 border-amber-500 bg-amber-700 p-5 text-xl  text-white">
 				<div>Nom</div>
 				<div>
 					<b>{t()?.metadata.com_name}</b>
@@ -187,53 +187,51 @@ function Stats() {
 					</a>
 				</div>
 			</div>
-		</>
+		</div>
 	);
 }
 
 function SearchBar() {
 	return (
-		<>
-			<div class="relative ">
-				<input
-					type="text"
-					onChange={(e) => search(e.currentTarget?.value ?? "")}
-					id="searchBar"
-					value={searchBarValue()}
-					autocomplete="off"
-					placeholder="Rechercher une ville..."
-					onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
-					class="w-full  rounded-lg border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500"
-				/>
-				<button
-					onClick={() => setSearchBar("")}
-					class="clear-button absolute top-0 right-0 p-2.5 text-amber-500 hover:text-white"
-				>
-					<svg viewBox="0 0 20 20" fill="currentColor" class="x-circle h-6 w-6">
-						<path
-							fill-rule="evenodd"
-							d="M10 18A8 8 0 102 10a8 8 0 008 8zm1.41-10l3.3-3.29a1 1 0 10-1.42-1.42L10 8.59 6.71 5.29a1 1 0 00-1.42 1.42L8.59 10l-3.3 3.29a1 1 0 101.42 1.42L10 11.41l3.29 3.3a1 1 0 001.42-1.42L11.41 10z"
-							clip-rule="evenodd"
-						/>
-					</svg>
-				</button>
-				<div
-					class="z-10 mx-2 grid max-h-[75vh] overflow-auto rounded-b-lg bg-ad"
-					id="searchResults"
-				>
-					<For each={matchingTowns()}>
-						{(e) => (
-							<div
-								class="search-suggestion border-b-[1px] border-amber-400 px-2 py-2 text-amber-400 hover:bg-amber-900 sm:py-1"
-								onClick={() => setSearchBar(e.metadata.com_name)}
-							>
-								{e.metadata.com_name}
-							</div>
-						)}
-					</For>
-				</div>
+		<div class="pointer-events-auto relative">
+			<input
+				type="text"
+				onChange={(e) => search(e.currentTarget?.value ?? "")}
+				id="searchBar"
+				value={searchBarValue()}
+				autocomplete="off"
+				placeholder="Rechercher une ville..."
+				onInput={(e) => setMatchingTowns(Array.from(filter(e.currentTarget.value)))}
+				class="w-full  rounded-lg border-2 border-amber-500 bg-amber-700 px-2 py-1 text-2xl font-bold text-white outline-none placeholder:text-amber-500"
+			/>
+			<button
+				onClick={() => setSearchBar("")}
+				class="clear-button absolute top-0 right-0 p-2.5 text-amber-500 hover:text-white"
+			>
+				<svg viewBox="0 0 20 20" fill="currentColor" class="x-circle h-6 w-6">
+					<path
+						fill-rule="evenodd"
+						d="M10 18A8 8 0 102 10a8 8 0 008 8zm1.41-10l3.3-3.29a1 1 0 10-1.42-1.42L10 8.59 6.71 5.29a1 1 0 00-1.42 1.42L8.59 10l-3.3 3.29a1 1 0 101.42 1.42L10 11.41l3.29 3.3a1 1 0 001.42-1.42L11.41 10z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+			</button>
+			<div
+				class="fixed z-10 mx-5 grid max-h-[75vh] w-80 overflow-auto rounded-b-lg bg-ad bg-opacity-75 drop-shadow-2xl"
+				id="searchResults"
+			>
+				<For each={matchingTowns()}>
+					{(e) => (
+						<div
+							class="search-suggestion border-b-[1px] border-amber-400 px-2 py-2 text-amber-400 hover:bg-amber-900 sm:py-1"
+							onClick={() => setSearchBar(e.metadata.com_name)}
+						>
+							{e.metadata.com_name}
+						</div>
+					)}
+				</For>
 			</div>
-		</>
+		</div>
 	);
 }
 

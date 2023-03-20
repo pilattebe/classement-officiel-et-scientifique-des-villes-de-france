@@ -21,3 +21,13 @@ code {
 :is(:has(#searchBar:focus), :has(#searchResults:hover)) #searchResults {
 	display: block;
 }
+
+html {
+	overflow: hidden;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	overflow: auto;
+}
