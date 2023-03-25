@@ -37,17 +37,6 @@ let godObjectKeys: string[];
 window.godObject = godObject;
 
 const replacements = new Map<string, string>([
-	["Le Puy en Velay", "Le Puy-en-Velay"],
-	["Dôle", "Dole"],
-	["Epinal", "Épinal"],
-	["Aix-En-Provence", "Aix-en-Provence"],
-	["Angoulème", "Angoulême"],
-	["Les sables-d'Olonne", "Les Sables-d'Olonne"],
-	["Evreux", "Évreux"],
-	["Saint-Etienne", "Saint-Étienne"],
-	["Fort-De-France", "Fort-de-France"],
-	["Cherbourg", "Cherbourg-en-Cotentin"],
-	["Saint-Denis de la Réunion", "Saint-Denis"],
 ]);
 
 const reverseReplacements = new Map<string, string>(
