@@ -157,7 +157,7 @@ function Stats() {
 				</div>
 				<div class="col-span-2 underline">
 					<a
-						href={`https://fr.wikipedia.org/?curid=${t()?.score.wikiUrl}}`}
+						href={`https://fr.wikipedia.org/?curid=${t()?.score.wikiUrl}`}
 						target="_blank"
 						rel="noreferrer"
 					>
