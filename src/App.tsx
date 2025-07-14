@@ -54,7 +54,7 @@ const [currentTown, setCurrentTown] = createSignal<string | null>(null);
 export default function App() {
 	onMount(async () => {
 		map = initializeMap();
-		const townsJson = await fetch("https://api.cityrank.clockworks.fr/cities");
+		const townsJson = await fetch("/scores.json");
 		scores = z.array(townScore).parse(await townsJson.json());
 		await fetchFeatures();
 		godObjectKeys = Array.from(godObject.keys());
